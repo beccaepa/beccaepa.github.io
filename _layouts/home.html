@@ -1,0 +1,103 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+  <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  <div style="display: flex; align-items: center; text-align: justify; padding-bottom: 50px;">
+
+    <div style="flex: 1; font-size: 15px; padding-top: 20px;">
+      {{ content }}
+    </div>
+    <img src="{{page.image | relative_url}}" alt="{{site.title}}"
+      style="width: 200px; height: 200px; margin-left: 40px; border-radius: 50%;">
+
+    <style>
+      @media screen and (max-width: 600px) {
+
+        /* Adjust styles for smaller screens */
+        div {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        img {
+          width: 100%;
+          max-width: 200px;
+          height: auto;
+          align-items: center;
+          margin-left: 0px;
+          margin-right: 0px;
+          margin-top: 0px;
+        }
+      }
+    </style>
+
+
+  </div>
+
+
+  {%- if site.research.size > 0 -%}
+  <h2>{{ page.list_title | default: "Research" }}</h2>
+  <ul style="list-style: none;margin-left: 10px;">
+    {%- for post in site.research -%}
+    <li style="padding: 0px;">
+      <hr style="margin-top: 10px; margin-bottom: 10px; opacity: 30%;" />
+
+      <div style="display: flex; align-items: center; text-align: justify;">
+        <img src="{{post.image | relative_url}}" alt="{{site.title}}"
+          style="width: 125px; height: 125px; margin-right: 10px; padding-right: 20px;">
+        <div style="vertical-align:middle">
+          <div style="font-size: medium; font-weight: 600;">
+            {%- if post.link -%}
+            <a href="{{ post.link | relative_url }}">{{ post.title }}</a>
+            {%- else -%}
+            {{ post.title }}
+            {%- endif -%}
+          </div>
+
+          {%- if post.authors -%}
+          {%- for author in post.authors -%}
+          {%- if author.url -%}
+          <a href="{{ author.url | relative_url }}" style="font-size: small;">{{ author.name }}</a>{% unless
+          forloop.last %}, {%
+          endunless %}
+          {%- else -%}
+          <span style="font-size: small;">
+            {{ author.name }}{% unless forloop.last %}, {% endunless %}
+          </span>
+          {%- endif -%}
+          {%- endfor -%}
+          {%- endif -%}
+          {{%- if post.subtitle -%}}
+          <div style="font-size: small; font-weight: 500;">
+            <em>
+              {{ post.subtitle }}
+            </em>
+          </div>
+          {%- if post.links -%}
+          {%- for link in post.links -%}
+          <span style="font-size: small;">
+            <a href="{{ link.url | relative_url }}" style="font-size: small;">{{ link.name }}</a>{% unless forloop.last
+            %} /
+            {%endunless %}
+            {%- endfor -%}
+            {%- endif -%}
+          </span>
+          <div style="font-size: small;padding-top: 5px;">
+            {{post.content}}
+          </div>
+
+
+        </div>
+      </div>
+
+    </li>
+    {%- endfor -%}
+  </ul>
+  {%- endif -%}
+
+</div>

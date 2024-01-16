@@ -1,0 +1,71 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+  <h1 class="page-heading">{{ page.title }}</h1>
+  <p class="rss-subscribe">
+    {{content}}
+  </p>
+  {%- endif -%}
+
+  {%- if site.posts.size > 0 -%}
+  <ul class="post-list">
+    {%- for post in site.posts -%}
+    <hr style="margin-top: 5px; margin-bottom: 5px; opacity: 50%;" />
+    <li>
+      <div style="display: flex; align-items: center; text-align: justify; padding-bottom: 20px;">
+        <div style="font-size: 15px; padding-top: 20px; vertical-align: top;">
+
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+          <h2>
+            <a href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h2>
+          {%- if post.excerpt -%}
+          {{ post.excerpt }}
+          {%- endif -%}
+        </div>
+        {%- if post.image -%}
+        <img src="{{post.image | relative_url}}" alt="{{site.title}}"
+          style="width: 300px; height: auto; margin-left: 20px;">
+        {%- endif -%}
+      </div>
+    </li>
+
+    <style>
+      /* Add your existing styles here */
+
+      /* Media query for screens with a maximum width of 600px (adjust as needed) */
+      @media (max-width: 600px) {
+        li {
+          padding: 20px;
+          /* Adjust padding as needed */
+        }
+
+        div {
+          flex-direction: column;
+          align-items: center;
+          text-align: justify;
+        }
+
+        img {
+          width: 100%;
+          /* Make the image fill the container */
+          margin-top: 10px;
+          /* Adjust margin as needed */
+          margin-left: 0;
+          /* Reset margin for small screens */
+        }
+      }
+    </style>
+
+    {%- endfor -%}
+  </ul>
+
+  {%- endif -%}
+
+</div>
