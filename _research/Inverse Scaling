@@ -14,7 +14,33 @@ link: https://arxiv.org/pdf/2306.09479.pdf
 # Add list of authors here.
 # Name is mandatory, url is optional.
 authors:
-  - name: Ian R. McKenzie, Alexander Lyzhov, Michael Pieler, Alicia Parrish, Aaron Mueller, Ameya Prabhu, Euan McLean, Aaron Kirtland, Alexis Ross, Alisa Liu, Andrew Gritsevskiy, Daniel Wurgaft, Derik Kauffman, Gabriel Recchia, Jiacheng Liu, Joe Cavanagh, Max Weiss, Sicong Huang, The Floating Droid, Tom Tseng, Tomasz Korbak, Xudong Shen, Yuhui Zhang, Zhengping Zhou, Najoung Kim, Samuel R. Bowman, Ethan Perez 
+  - name: Ian R. McKenzie
+  - name: Alexander Lyzhov
+  - name: Michael Pieler
+  - name: Alicia Parrish
+  - name: Aaron Mueller
+  - name: Ameya Prabhu
+  - name: Euan McLean
+  - name: Aaron Kirtland
+  - name: Alexis Ross
+  - name: Alisa Liu
+  - name: Andrew Gritsevskiy
+  - name: Daniel Wurgaft
+  - name: Derik Kauffman
+  - name: Gabriel Recchia
+  - name: Jiacheng Liu
+  - name: Joe Cavanagh
+  - name: Max Weiss
+  - name: Sicong Huang
+  - name: The Floating Droid
+  - name: Tom Tseng
+  - name: Tomasz Korbak
+  - name: Xudong Shen
+  - name: Yuhui Zhang
+  - name: Zhengping Zhou
+  - name: Najoung Kim
+  - name: Samuel R. Bowman
+  - name: Ethan Perez 
 
 # List of links
 links:
