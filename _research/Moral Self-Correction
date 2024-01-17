@@ -14,7 +14,7 @@ link: https://arxiv.org/pdf/2302.07459.pdf
 # Add list of authors here.
 # Name is mandatory, url is optional.
 authors:
-  - name: Deep Ganguli*, 
+  - name: Deep Ganguli* 
   - name: Amanda Askell*
   - name: Nicholas Schiefer
   - name: Thomas I. Liao
