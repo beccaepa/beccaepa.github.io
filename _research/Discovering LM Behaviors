@@ -1,0 +1,32 @@
+---
+title: Discovering Language Model Behaviors with Model-Written Evaluations
+
+# Path to the image file, example /assets/images/blog/image.jpg
+# You can also use an online URL as well, example https://www.google.com/image.jpg
+image: /assets/images/Screen-Shot-2023-09-26-at-12.53.48-PM-150x150.png
+
+# This is optional, if not provided it will not show on the page.
+subtitle: arXiv, 2021
+
+# This is optional, if not provided the title will not have a link to anywhere
+link: https://arxiv.org/
+
+# Add list of authors here.
+# Name is mandatory, url is optional.
+authors:
+  - name: Alice Smith
+    url: https://alicesmith.com/
+  - name: John Doe
+  - name: Bob Smith
+
+# List of links
+links:
+  - name: Paper
+    url: https://paper.com
+  - name: Code
+    url: https://code.com
+---
+
+<!--Abstract-->
+
+We investigate hypotheses for how CoT reasoning may be unfaithful, by examining how the model predictions change when we intervene on the CoT.
