@@ -1,0 +1,31 @@
+---
+title: RL with KL penalties is better views as Bayesian inference
+
+# Path to the image file, example /assets/images/blog/image.jpg
+# You can also use an online URL as well, example https://www.google.com/image.jpg
+image: /assets/images/rl_with_kl_image.png
+
+# This is optional, if not provided it will not show on the page.
+subtitle: EMNLP 2022
+
+# This is optional, if not provided the title will not have a link to anywhere
+link: https://arxiv.org/pdf/2205.11275.pdf
+
+# Add list of authors here.
+# Name is mandatory, url is optional.
+authors:
+  - name: Tomasz Korbak
+  - name: Ethan Perez
+  - name: Christopher L Buckley
+
+# List of links
+links:
+  - name: Paper
+    url: https://arxiv.org/pdf/2205.11275.pdf
+  - name: Blog Post
+    url: https://www.alignmentforum.org/posts/eoHbneGvqDu25Hasc/rl-with-kl-penalties-is-better-seen-as-bayesian-inference
+---
+
+<!--Abstract-->
+
+KL penalties in RL with language models aren’t a hack; KL penalties have a principled, Bayesian justification.
