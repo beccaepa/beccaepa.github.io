@@ -1,0 +1,29 @@
+---
+title: Finding and Fixing Undesirable Behaviors in Pretrained Language Models
+
+# Path to the image file, example /assets/images/blog/image.jpg
+# You can also use an online URL as well, example https://www.google.com/image.jpg
+image: /assets/images/thesis_image.png
+
+# This is optional, if not provided it will not show on the page.
+subtitle: PhD Thesis
+
+# This is optional, if not provided the title will not have a link to anywhere
+link: /assets/pdfs/thesis.pdf
+
+# Add list of authors here.
+# Name is mandatory, url is optional.
+authors:
+  - name: Ethan Perez
+
+# List of links
+links:
+  - name: Paper
+    url: /assets/pdfs/thesis.pdf
+  - name: Talk
+    url: https://www.youtube.com/watch?v=BgcU_kytMf8
+---
+
+<!--Abstract-->
+
+Language models often generate undesirable text. We introduce methods for finding undesirable behaviors and training them away.
