@@ -1,0 +1,33 @@
+---
+title: "Rissanen Data Analysis: Examining Dataset Characteristics with Description Length"
+
+# Path to the image file, example /assets/images/blog/image.jpg
+# You can also use an online URL as well, example https://www.google.com/image.jpg
+image: /assets/images/rissanen_image.png
+
+# This is optional, if not provided it will not show on the page.
+subtitle: ICML 2021
+
+# This is optional, if not provided the title will not have a link to anywhere
+link: https://arxiv.org/pdf/2103.03872.pdf
+
+# Add list of authors here.
+# Name is mandatory, url is optional.
+authors:
+  - name: Ethan Perez
+  - name: Douwe Kiela
+  - name: Kyunghyun Cho
+
+# List of links
+links:
+  - name: Paper
+    url: https://arxiv.org/pdf/2103.03872.pdf
+  - name: Cite
+    url: https://github.com/ethanjperez/rda#bibtex-citation
+  - name: Code
+    url: https://github.com/ethanjperez/rda
+---
+
+<!--Abstract-->
+
+We propose a theoretically-justified way to “probe datasets” for what capabilities they require of a model.
