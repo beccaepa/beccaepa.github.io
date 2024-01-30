@@ -1,0 +1,40 @@
+---
+title: ELI5: Long Form Question Answering
+
+# Path to the image file, example /assets/images/blog/image.jpg
+# You can also use an online URL as well, example https://www.google.com/image.jpg
+image: /assets/images/ELI5.png
+
+# This is optional, if not provided it will not show on the page.
+subtitle: ACL 2019
+
+# This is optional, if not provided the title will not have a link to anywhere
+link: https://arxiv.org/pdf/1907.09190.pdf
+
+# Add list of authors here.
+# Name is mandatory, url is optional.
+authors:
+  - name: Angela Fan
+  - name: Yacine Jernite*
+  - name: Ethan Perez*
+  - name: David Grangier
+  - name: Jason Weston
+  - name: Michael Auli
+
+# List of links
+links:
+  - name: Paper
+    url: https://arxiv.org/pdf/1907.09190.pdf
+  - name: Blog Post
+    url: https://ai.meta.com/blog/longform-qa/
+  - name: Cite
+    url: https://aclanthology.org/P19-1346.bib
+  - name: Code
+    url: https://github.com/facebookresearch/ELI5
+  - name: Website
+    url: https://facebookresearch.github.io/ELI5/explore.html
+---
+
+<!--Abstract-->
+
+We introduce a dataset for abstractive question-answering where answers are 100+ words long (many “how” and “why” questions).
