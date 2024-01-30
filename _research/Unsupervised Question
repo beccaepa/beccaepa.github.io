@@ -31,7 +31,7 @@ links:
   - name: Code
     url: https://github.com/facebookresearch/UnsupervisedDecomposition
   - name: Poster
-    url: 
+    url: /assets/pdfs/UQD4QA.pdf
   - name: Talk
     url: https://slideslive.com/38938683/unsupervised-question-decomposition-for-question-answering
 ---
