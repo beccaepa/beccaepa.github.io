@@ -1,0 +1,37 @@
+---
+title: "FiLM: Visual Reasoning with a General Conditioning Layer"
+
+# Path to the image file, example /assets/images/blog/image.jpg
+# You can also use an online URL as well, example https://www.google.com/image.jpg
+image: /assets/images/FiLM_image.png
+
+# This is optional, if not provided it will not show on the page.
+subtitle: AAAI 2018
+
+# This is optional, if not provided the title will not have a link to anywhere
+link: https://arxiv.org/pdf/1709.07871.pdf
+
+# Add list of authors here.
+# Name is mandatory, url is optional.
+authors:
+  - name: Ethan Perez
+  - name: Florian Strub
+  - name: Harm de Vries
+  - name: Vincent Dumoulin
+  - name: Aaron Courville
+
+# List of links
+links:
+  - name: Paper
+    url: https://arxiv.org/pdf/1709.07871.pdf
+  - name: Cite
+    url: https://github.com/ethanjperez/film#bibtex
+  - name: Code
+    url: https://github.com/ethanjperez/film
+  - name: Talk
+    url: https://www.youtube.com/watch?v=02xIkHowQOk&t=9895s
+---
+
+<!--Abstract-->
+
+We introduce a general-purpose neural network layer to integrate multimodal input to answer reasoning questions about images.
