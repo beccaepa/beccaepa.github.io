@@ -15,7 +15,7 @@ image: /assets/images/inverse-scaling-prize-ideas.png
 
 # This is an optional field which sets the link of the blog post.
 # If not provided, a link will be generated automatically with the title of the blog post.
-permalink: blog/inverse-scaling-prize-ideas/
+permalink: blog/inverse-scaling-prize-ideas_DUMMY/
 
 # This is the excerpt of the blog post which will be shown in the blog listing page.
 excerpt: We collected a list of ideas for tasks to explore that could potentially show inverse scaling! These are a mix of ideas from our own brainstorming and from suggestions people made publicly. We have included links to the original suggestions where applicable.
