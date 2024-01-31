@@ -11,7 +11,7 @@ date: 2022-09-13 00:00:00 +0000
 # Set the path of the image file, example /assets/images/blog/image.jpg
 # You can also use an online URL as well, example https://www.google.com/image.jpg
 # Image is optional, if not provided no image will be shown.
-image: /assets/images/inverse-scaling-prize-ideas.png
+image: /assets/images/personal-statement.jpeg
 
 # This is an optional field which sets the link of the blog post.
 # If not provided, a link will be generated automatically with the title of the blog post.
