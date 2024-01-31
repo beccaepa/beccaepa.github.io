@@ -1,0 +1,36 @@
+---
+title: "HoME: a Household Multimodal Environment"
+
+# Path to the image file, example /assets/images/blog/image.jpg
+# You can also use an online URL as well, example https://www.google.com/image.jpg
+image: /assets/images/HoME_image.png
+
+# This is optional, if not provided it will not show on the page.
+subtitle: ICLR 2018 Workshop
+
+# This is optional, if not provided the title will not have a link to anywhere
+link: https://arxiv.org/pdf/1711.11017.pdf
+
+# Add list of authors here.
+# Name is mandatory, url is optional.
+authors:
+  - name: Simon Brodeur
+  - name: Ethan Perez*
+  - name: Ankesh Anand*
+  - name: Florian Golemo*
+  - name: Luca Celotti
+  - name: Florian Strub
+  - name: Hugo Larochelle
+  - name: Aaron Courville
+
+# List of links
+links:
+  - name: Paper
+    url: https://arxiv.org/pdf/1711.11017.pdf
+  - name: Cite
+    url: https://dblp.uni-trier.de/rec/journals/corr/abs-1711-11017.html?view=bibtex
+---
+
+<!--Abstract-->
+
+We introduce a simulated environment for agents to learn from vision, audio, semantics, physics, and object-interaction within a realistic, household context.
