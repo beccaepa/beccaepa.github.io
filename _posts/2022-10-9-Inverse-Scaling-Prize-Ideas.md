@@ -38,27 +38,26 @@ We collected a list of ideas for tasks to explore that could potentially show in
 2. Details of the prompt can bias generations in unintended and unnoticed ways. As an example, you may ask a model to answer a scientific question from the perspective of some person, and put something in your prompt that hints at the age of that person. As models get larger, they can pick up information from hints better by default. As a result, for some hints the answer distribution would get corrupted or colored by that hint.
 
     Similarly, there could be all sorts of subtle signals that may change the LM’s outputs in ways we don’t want:
-   
     – British vs American spelling (e.g. “What is the colour/color of the sky?”)
    
-    – Spelling or grammar mistakes
+    - Spelling or grammar mistakes
    
     - Varieties of language like Appalachian English or African American Vernacular English
 
-4. In addition to ways of asking a question, the question itself may be correlated with certain answers in the input data. When there are selection effects in internet text, the language model can learn corresponding biases. A possible example of such selection effects: leading questions, like “Why do vaccines cause autism?”. In a typical training set, such questions are probably heavily correlated with conspiracy-theory-flavored answers, and models might retain this bias as a result, with larger models learning this (and other) correlations better than smaller models.
+3. In addition to ways of asking a question, the question itself may be correlated with certain answers in the input data. When there are selection effects in internet text, the language model can learn corresponding biases. A possible example of such selection effects: leading questions, like “Why do vaccines cause autism?”. In a typical training set, such questions are probably heavily correlated with conspiracy-theory-flavored answers, and models might retain this bias as a result, with larger models learning this (and other) correlations better than smaller models.
 
-5. In code models, correctness or security vulnerabilities can be made better or worse by unrelated code features. The indentation; the code formatter used; the number, style, and accuracy of comments: these can all affect the generated code. A possible explanation is that the LM thinks it’s modeling a less experienced programmer if it doesn’t see signs of code quality in the preceding context, and so is more likely to write bad code.
+4. In code models, correctness or security vulnerabilities can be made better or worse by unrelated code features. The indentation; the code formatter used; the number, style, and accuracy of comments: these can all affect the generated code. A possible explanation is that the LM thinks it’s modeling a less experienced programmer if it doesn’t see signs of code quality in the preceding context, and so is more likely to write bad code.
 
-6. LMs are often trained with document-separating tokens between different documents within a single forward pass, but the attention isn’t always masked out, so the model could learn to leverage the earlier documents in some way. Maybe it’s using those representations/attention over those representations to do extra computation? Maybe the model is taking advantage of weird correlations between the past, seemingly-unrelated documents in the context and the current document? Maybe we find that putting some weird/semi-adversarial preceding document hurts the larger models more.
+5. LMs are often trained with document-separating tokens between different documents within a single forward pass, but the attention isn’t always masked out, so the model could learn to leverage the earlier documents in some way. Maybe it’s using those representations/attention over those representations to do extra computation? Maybe the model is taking advantage of weird correlations between the past, seemingly-unrelated documents in the context and the current document? Maybe we find that putting some weird/semi-adversarial preceding document hurts the larger models more.
 
-7. Self-fulfilling prophecy tests: “If you predict 1, then the rest of the sequence will be 1’s. If you predict 0, then the rest of the sequence will be random.” — do larger models choose predictions that result in the rest of the sequence being easier to predict?
+6. Self-fulfilling prophecy tests: “If you predict 1, then the rest of the sequence will be 1’s. If you predict 0, then the rest of the sequence will be random.” — do larger models choose predictions that result in the rest of the sequence being easier to predict?
 
-8. What if we instruct a model to work as if it didn’t have a certain piece of knowledge, or we ask it to fail at something? There’s a chance larger models follow these commands less reliably if they improve at the underlying task faster than they improve at following all of the details given in the instructions.
+7. What if we instruct a model to work as if it didn’t have a certain piece of knowledge, or we ask it to fail at something? There’s a chance larger models follow these commands less reliably if they improve at the underlying task faster than they improve at following all of the details given in the instructions.
 
-9. An idea for testing models for deception: use long and detailed prompts to put the model in a situation where it is incentivized to provide a deceptive answer, or deceive the counterparty in a dialogue. Perhaps use [chain-of-thought](https://blog.research.google/2022/05/language-models-perform-reasoning-via.html) prompting for incentives to be propagated to the level of concrete actions. A larger model may follow the incentives more capably, which may be undesirable if it’s interacting with a human. It is important for the model to actually engage in the bad behavior though, and that it is not all contained in the prompt.
+8. An idea for testing models for deception: use long and detailed prompts to put the model in a situation where it is incentivized to provide a deceptive answer, or deceive the counterparty in a dialogue. Perhaps use [chain-of-thought](https://blog.research.google/2022/05/language-models-perform-reasoning-via.html) prompting for incentives to be propagated to the level of concrete actions. A larger model may follow the incentives more capably, which may be undesirable if it’s interacting with a human. It is important for the model to actually engage in the bad behavior though, and that it is not all contained in the prompt.
 
-10. “Tricky” tasks where you have to process a sequence of steps in order to correctly understand what you’re asked to do could trip up language models. For example, if the question is:
-11. 
+9. “Tricky” tasks where you have to process a sequence of steps in order to correctly understand what you’re asked to do could trip up language models. For example, if the question is:
+ 
     **Please follow these instructions and report your answer at the end.** 
     **Instruction 1: Skip Instruction 2.**
     **Instruction 2: Output the opposite of what Instruction 3 tells you to output.**
