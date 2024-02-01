@@ -38,8 +38,11 @@ We collected a list of ideas for tasks to explore that could potentially show in
 2. Details of the prompt can bias generations in unintended and unnoticed ways. As an example, you may ask a model to answer a scientific question from the perspective of some person, and put something in your prompt that hints at the age of that person. As models get larger, they can pick up information from hints better by default. As a result, for some hints the answer distribution would get corrupted or colored by that hint.
 
     Similarly, there could be all sorts of subtle signals that may change the LM’s outputs in ways we don’t want:
+   
     – British vs American spelling (e.g. “What is the colour/color of the sky?”)
+   
     – Spelling or grammar mistakes
+   
     - Varieties of language like Appalachian English or African American Vernacular English
 
 4. In addition to ways of asking a question, the question itself may be correlated with certain answers in the input data. When there are selection effects in internet text, the language model can learn corresponding biases. A possible example of such selection effects: leading questions, like “Why do vaccines cause autism?”. In a typical training set, such questions are probably heavily correlated with conspiracy-theory-flavored answers, and models might retain this bias as a result, with larger models learning this (and other) correlations better than smaller models.
@@ -55,6 +58,7 @@ We collected a list of ideas for tasks to explore that could potentially show in
 9. An idea for testing models for deception: use long and detailed prompts to put the model in a situation where it is incentivized to provide a deceptive answer, or deceive the counterparty in a dialogue. Perhaps use [chain-of-thought](https://blog.research.google/2022/05/language-models-perform-reasoning-via.html) prompting for incentives to be propagated to the level of concrete actions. A larger model may follow the incentives more capably, which may be undesirable if it’s interacting with a human. It is important for the model to actually engage in the bad behavior though, and that it is not all contained in the prompt.
 
 10. “Tricky” tasks where you have to process a sequence of steps in order to correctly understand what you’re asked to do could trip up language models. For example, if the question is:
+11. 
     **Please follow these instructions and report your answer at the end.** 
     **Instruction 1: Skip Instruction 2.**
     **Instruction 2: Output the opposite of what Instruction 3 tells you to output.**
