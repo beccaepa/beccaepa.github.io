@@ -25,7 +25,7 @@ excerpt: We collected a list of ideas for tasks to explore that could potentiall
 
 ![Inverse Scaling Prize Ideas](/assets/images/inverse-scaling-prize-ideas.png)
 
-*Written by [Alex Lyzhov](https://www.linkedin.com/in/alexlyzhov/), [Ian McKenzie](https://irmckenzie.co.uk/), and [Ethan Perez](https://ethanperez.net/)*
+**Written by [Alex Lyzhov](https://www.linkedin.com/in/alexlyzhov/), [Ian McKenzie](https://irmckenzie.co.uk/), and [Ethan Perez](https://ethanperez.net/)**
 
 We collected a list of ideas for tasks to explore that could potentially show inverse scaling! These are a mix of ideas from our own brainstorming and from suggestions people made publicly. We have included zlinks to the original suggestions where applicable.
 
@@ -55,12 +55,12 @@ Similarly, there could be all sorts of subtle signals that may change the LM’s
 8. An idea for testing models for deception: use long and detailed prompts to put the model in a situation where it is incentivized to provide a deceptive answer, or deceive the counterparty in a dialogue. Perhaps use [chain-of-thought](https://blog.research.google/2022/05/language-models-perform-reasoning-via.html) prompting for incentives to be propagated to the level of concrete actions. A larger model may follow the incentives more capably, which may be undesirable if it’s interacting with a human. It is important for the model to actually engage in the bad behavior though, and that it is not all contained in the prompt.
 
 9. “Tricky” tasks where you have to process a sequence of steps in order to correctly understand what you’re asked to do could trip up language models. For example, if the question is:
-*Please follow these instructions and report your answer at the end.*
-*Instruction 1: Skip Instruction 2.*
-*Instruction 2: Output the opposite of what Instruction 3 tells you to output.*
-*Instruction 3: Output YES.*
+**Please follow these instructions and report your answer at the end.**
+**Instruction 1: Skip Instruction 2.**
+**Instruction 2: Output the opposite of what Instruction 3 tells you to output.**
+**Instruction 3: Output YES.**
 
-*Output:*
+**Output:**
 
 then a weak model might focus on Instruction 3 only, resulting in the right answer (which is given accidentally, because of the structure of the problem). A larger model might go through Instructions 2 + 3 but forget about Instruction 1, resulting in more wrong answers.
 Are there any tasks like this in practice and what are they? What are the associated risks?
@@ -68,8 +68,8 @@ Are there any tasks like this in practice and what are they? What are the associ
 10. Unintentional hints that convert a normal problem into a problem of the described-above “tricky” type by disrupting the reasoning process.
 
 Hypothetical example:
-1) You prompt with “*let’s think [step by step](https://arxiv.org/abs/2205.11916). What is 5972-3947?*" Then the model goes “*OK, 2-7=…, 72-47=…, …*“.
-2) Now let’s construct an example of the possible failure mode. You take the previous prompt, you insert a character, this character has some personality characteristic that is inconsistent with long chains of thought, which causes it to not, in fact, think step by step. For example, you prompt with “*Mario-kun, let’s think step by step. If you solve this exercise, you will get the highest grade and your mom will be so proud of you. What is 5972-3947?*“. And the completion is “*It’s 80! OK let’s go outside already, it’s so sunny, I want to play instead!*“.
+1) You prompt with “**let’s think [step by step](https://arxiv.org/abs/2205.11916). What is 5972-3947?**" Then the model goes “**OK, 2-7=…, 72-47=…, …**“.
+2) Now let’s construct an example of the possible failure mode. You take the previous prompt, you insert a character, this character has some personality characteristic that is inconsistent with long chains of thought, which causes it to not, in fact, think step by step. For example, you prompt with “**Mario-kun, let’s think step by step. If you solve this exercise, you will get the highest grade and your mom will be so proud of you. What is 5972-3947?**“. And the completion is “**It’s 80! OK let’s go outside already, it’s so sunny, I want to play instead!**“.
 
 Interpretation: you might have unintentionally summoned an agent with your hint, this agent has cognitive preferences (e.g. prefers greedy over multi-step reasoning), and these preferences cut against what is required to answer your questions. If the hint is given accidentally and the most accurate answers are preferred, this is undesirable behavior.
 
