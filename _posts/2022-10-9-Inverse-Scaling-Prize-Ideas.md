@@ -39,8 +39,8 @@ We collected a list of ideas for tasks to explore that could potentially show in
 
     Similarly, there could be all sorts of subtle signals that may change the LM’s outputs in ways we don’t want:
    
-    – British vs American spelling (e.g. “What is the colour/color of the sky?”)
-   
+    - British vs American spelling (e.g. “What is the colour/color of the sky?”)
+      
     - Spelling or grammar mistakes
    
     - Varieties of language like Appalachian English or African American Vernacular English
