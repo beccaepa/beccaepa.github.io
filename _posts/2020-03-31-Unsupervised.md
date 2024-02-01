@@ -27,7 +27,8 @@ We improve question answering (QA) by decomposing hard questions into easier sub
 
 ![Inverse Scaling Prize Ideas](/assets/images/unsupervised_image1.png)
 
-**"How it works:"**
+**How it works:**
+
 To train the decomposition model, we construct a noisy, “pseudo-decomposition” for each hard question by retrieving similar, simple questions from a large corpus. We then train neural text generation models on that data with standard sequence-to-sequence learning or unsupervised sequence-to-sequence learning, as shown below.
 
 ![Inverse Scaling Prize Ideas](/assets/images/unsupervised_image2.png)
@@ -36,7 +37,8 @@ Our approach automatically learns to generate useful decompositions for many typ
 
 ![Inverse Scaling Prize Ideas](/assets/images/unsupervised_image4.png)
 
-**"Why it matters:"**
+**Why it matters:**
+
 In machine learning, we often train models to solve new kinds of examples from scratch. Our approach shows a way to leverage the abilities of existing models in order to tackle new examples, improving generalization to new examples without requiring manual annotation.
 
 **"Get it on GitHub:"**
