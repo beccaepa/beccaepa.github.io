@@ -18,7 +18,7 @@ image: /assets/images/personal-statement.jpeg
 permalink: blog/personal-research-statement/
 
 # This is the excerpt of the blog post which will be shown in the blog listing page.
-excerpt: "A few people have asked to read my personal research statement for Ph.D. programs in machine learning, so I’ve released my statement. The statement follows the below outline, which I think is a generally good outline for such statements:"
+excerpt: "A few people have asked to read my personal research statement for Ph.D. programs in machine learning, so I’ve released my statement [here](/assets/pdfs/Personal_Statement.pdf). The statement follows the below outline, which I think is a generally good outline for such statements:"
 ---
 
 <!-- Add the blog post here in markdown -->
