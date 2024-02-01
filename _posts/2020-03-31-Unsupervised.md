@@ -34,7 +34,7 @@ To train the decomposition model, we construct a noisy, â€œpseudo-decompositionâ
 
 Our approach automatically learns to generate useful decompositions for many types of questions, highlighting the general nature of our approach. Question decompositions also add a form of interpretability to black-box, neural QA models; we can see what sub-questions and answers the model used to make its prediction, as shown below:
 
-![Inverse Scaling Prize Ideas](/assets/images/unsupervised_image3.png)
+![Inverse Scaling Prize Ideas](/assets/images/unsupervised_image4.png)
 
 **"Why it matters:"**
 In machine learning, we often train models to solve new kinds of examples from scratch. Our approach shows a way to leverage the abilities of existing models in order to tackle new examples, improving generalization to new examples without requiring manual annotation.
