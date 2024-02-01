@@ -3,7 +3,7 @@
 layout: post
 
 # Set the title of the blog here
-title:  "Inverse Scaling Prize "
+title:  "Inverse Scaling Prize Ideas"
 
 # Set the date here, format must be YYYY-MM-DD hh:mm:ss +TTTT.
 date: 2022-10-9 00:00:00 +0000
