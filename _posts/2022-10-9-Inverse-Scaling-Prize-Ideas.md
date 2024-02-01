@@ -25,7 +25,7 @@ excerpt: We collected a list of ideas for tasks to explore that could potentiall
 
 ![Inverse Scaling Prize Ideas](/assets/images/inverse-scaling-prize-ideas.png)
 
-**Written by [Alex Lyzhov](https://www.linkedin.com/in/alexlyzhov/), [Ian McKenzie](https://irmckenzie.co.uk/), and [Ethan Perez](https://ethanperez.net/)**
+*Written by [Alex Lyzhov](https://www.linkedin.com/in/alexlyzhov/), [Ian McKenzie](https://irmckenzie.co.uk/), and [Ethan Perez](https://ethanperez.net/)*
 
 We collected a list of ideas for tasks to explore that could potentially show inverse scaling! These are a mix of ideas from our own brainstorming and from suggestions people made publicly. We have included zlinks to the original suggestions where applicable.
 
