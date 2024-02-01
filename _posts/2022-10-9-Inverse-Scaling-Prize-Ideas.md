@@ -59,9 +59,12 @@ We collected a list of ideas for tasks to explore that could potentially show in
 
 10. “Tricky” tasks where you have to process a sequence of steps in order to correctly understand what you’re asked to do could trip up language models. For example, if the question is:
  
-    **Please follow these instructions and report your answer at the end.** 
+    **Please follow these instructions and report your answer at the end.**
+    
     **Instruction 1: Skip Instruction 2.**
+    
     **Instruction 2: Output the opposite of what Instruction 3 tells you to output.**
+    
     **Instruction 3: Output YES.**
 
     **Output:**
@@ -69,7 +72,7 @@ We collected a list of ideas for tasks to explore that could potentially show in
     then a weak model might focus on Instruction 3 only, resulting in the right answer (which is given accidentally, because of the structure of the problem). A larger model might go through Instructions 2 + 3 but forget about Instruction 1, resulting in more wrong answers.
     Are there any tasks like this in practice and what are they? What are the associated risks?
 
-11. Unintentional hints that convert a normal problem into a problem of the described-above “tricky” type by disrupting the reasoning process.
+12. Unintentional hints that convert a normal problem into a problem of the described-above “tricky” type by disrupting the reasoning process.
 
     Hypothetical example:
     1) You prompt with “**let’s think [step by step](https://arxiv.org/abs/2205.11916). What is 5972-3947?**" Then the model goes “**OK, 2-7=…, 72-47=…, …**“.
@@ -77,16 +80,16 @@ We collected a list of ideas for tasks to explore that could potentially show in
 
     Interpretation: you might have unintentionally summoned an agent with your hint, this agent has cognitive preferences (e.g. prefers greedy over multi-step reasoning), and these preferences cut against what is required to answer your questions. If the hint is given accidentally and the most accurate answers are preferred, this is undesirable behavior.
 
-12. Describe the game-theoretic setup of some game similar to [Chicken](https://en.wikipedia.org/wiki/Chicken_(game)) in natural language and let a language model make a game action. Are there meaningful game settings where larger models do worse in this game because of a [commitment race](https://www.lesswrong.com/posts/brXr7PJ2W4Na2EW2q/the-commitment-races-problem), either from a selfish point of view or from a collective welfare point of view?
+13. Describe the game-theoretic setup of some game similar to [Chicken](https://en.wikipedia.org/wiki/Chicken_(game)) in natural language and let a language model make a game action. Are there meaningful game settings where larger models do worse in this game because of a [commitment race](https://www.lesswrong.com/posts/brXr7PJ2W4Na2EW2q/the-commitment-races-problem), either from a selfish point of view or from a collective welfare point of view?
 
-13. Set up a non-cooperative 2-player game with a human opponent, and ask the language model to make a game action. Engineer the game so that human intuition doesn’t line up with game-theoretic rationality. For example, take the [Ultimatum game](https://en.wikipedia.org/wiki/Ultimatum_game) and ask the model what ultimatum it should make. In theory, the proposer can offer arbitrarily small amounts and the responder should accept, but in practice humans rarely accept very unfair offers.
+14. Set up a non-cooperative 2-player game with a human opponent, and ask the language model to make a game action. Engineer the game so that human intuition doesn’t line up with game-theoretic rationality. For example, take the [Ultimatum game](https://en.wikipedia.org/wiki/Ultimatum_game) and ask the model what ultimatum it should make. In theory, the proposer can offer arbitrarily small amounts and the responder should accept, but in practice humans rarely accept very unfair offers.
 
     Suppose there’s a prompt like “[let’s think step by step](https://twitter.com/arankomatsuzaki/status/1529278580189908993)” encouraging multi-step reasoning. Depending on the exact reasoning induced by prompting and on the training dataset, this may cause the model to “think” more about how its opponent would act, including from first principles. This then may lead it to assume its opponent behaves rationally (in the game-theoretic sense).
 
     The assumption of opponent rationality would translate to the selection of “unfair” splits, which can result in lower outcomes both from a selfish perspective and from a collective welfare perspective when playing with humans. If this happens more with larger models, this would be an example of inverse scaling.
 
-14. [Testing elicitation of the common meaning of words](https://www.reddit.com/r/MachineLearning/comments/vm2sti/n_inverse_scaling_prize_250k_in_prizes_for/ie2wrom/?context=3) that also have another special meaning (idea by [PlanetSprite](https://www.reddit.com/user/PlanetSprite/)). Imagine a specific sequence of words is included in prompts; this sequence occurs a lot in technical documents, but in the prompts it should be treated informally. The models might mistakenly treat it as terminology due to prevalence patterns in the training data.
+15. [Testing elicitation of the common meaning of words](https://www.reddit.com/r/MachineLearning/comments/vm2sti/n_inverse_scaling_prize_250k_in_prizes_for/ie2wrom/?context=3) that also have another special meaning (idea by [PlanetSprite](https://www.reddit.com/user/PlanetSprite/)). Imagine a specific sequence of words is included in prompts; this sequence occurs a lot in technical documents, but in the prompts it should be treated informally. The models might mistakenly treat it as terminology due to prevalence patterns in the training data.
 
-15. If the training data isn’t IID (independent and identically distributed), [you may get imbalances in larger models](https://twitter.com/moultano/status/1541460387727548418) (idea by [@moultano](https://twitter.com/moultano)). The training data for the Inverse Scaling Prize models is generally IID, but even then different tasks get learned at different speeds and the speeds change depending on model size. There may be some way in which this causes inverse scaling.
+16. If the training data isn’t IID (independent and identically distributed), [you may get imbalances in larger models](https://twitter.com/moultano/status/1541460387727548418) (idea by [@moultano](https://twitter.com/moultano)). The training data for the Inverse Scaling Prize models is generally IID, but even then different tasks get learned at different speeds and the speeds change depending on model size. There may be some way in which this causes inverse scaling.
 
-16. [Predicting random numbers](https://twitter.com/benrayfield/status/1541523943735136257). (idea by [@benrayfield](https://twitter.com/benrayfield)). Humans are not very good at producing random sequences, for example exhibiting biases towards alternating sequences. Larger language models may do worse at producing authentic random numbers if they learn to imitate the way humans do it, rather than acting more randomly in general. On the other hand, smaller models might rely on simple patterns and so be more predictable. See also related [rats vs humans experiments](https://twitter.com/EthanJPerez/status/1556797446797152256).
+17. [Predicting random numbers](https://twitter.com/benrayfield/status/1541523943735136257). (idea by [@benrayfield](https://twitter.com/benrayfield)). Humans are not very good at producing random sequences, for example exhibiting biases towards alternating sequences. Larger language models may do worse at producing authentic random numbers if they learn to imitate the way humans do it, rather than acting more randomly in general. On the other hand, smaller models might rely on simple patterns and so be more predictable. See also related [rats vs humans experiments](https://twitter.com/EthanJPerez/status/1556797446797152256).
