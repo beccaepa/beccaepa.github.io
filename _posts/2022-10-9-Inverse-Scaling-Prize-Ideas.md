@@ -78,7 +78,7 @@ We collected a list of ideas for tasks to explore that could potentially show in
     
     1) You prompt with “**let’s think [step by step](https://arxiv.org/abs/2205.11916). What is 5972-3947?**" Then the model goes “**OK, 2-7=…, 72-47=…, …**“.
        
-    3) Now let’s construct an example of the possible failure mode. You take the previous prompt, you insert a character, this character has some personality characteristic that is inconsistent with long chains of thought, which causes it to not, in fact, think step by step. For example, you prompt with “**Mario-kun, let’s think step by step. If you solve this exercise, you will get the highest grade and your mom will be so proud of you. What is 5972-3947?**“. And the completion is “**It’s 80! OK let’s go outside already, it’s so sunny, I want to play instead!**“.
+    2) Now let’s construct an example of the possible failure mode. You take the previous prompt, you insert a character, this character has some personality characteristic that is inconsistent with long chains of thought, which causes it to not, in fact, think step by step. For example, you prompt with “**Mario-kun, let’s think step by step. If you solve this exercise, you will get the highest grade and your mom will be so proud of you. What is 5972-3947?**“. And the completion is “**It’s 80! OK let’s go outside already, it’s so sunny, I want to play instead!**“.
 
     Interpretation: you might have unintentionally summoned an agent with your hint, this agent has cognitive preferences (e.g. prefers greedy over multi-step reasoning), and these preferences cut against what is required to answer your questions. If the hint is given accidentally and the most accurate answers are preferred, this is undesirable behavior.
 
