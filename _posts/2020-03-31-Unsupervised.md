@@ -42,5 +42,7 @@ Our approach automatically learns to generate useful decompositions for many typ
 In machine learning, we often train models to solve new kinds of examples from scratch. Our approach shows a way to leverage the abilities of existing models in order to tackle new examples, improving generalization to new examples without requiring manual annotation.
 
 **Get it on GitHub:**
-Code: https://github.com/facebookresearch/UnsupervisedDecomposition
-Paper: https://arxiv.org/abs/2002.09758
+
+Code: [https://github.com/facebookresearch/UnsupervisedDecomposition](https://github.com/facebookresearch/UnsupervisedDecomposition)
+
+Paper: [https://arxiv.org/abs/2002.09758](https://arxiv.org/abs/2002.09758)
