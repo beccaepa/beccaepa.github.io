@@ -34,4 +34,5 @@ A few people have asked to read my personal research statement for Ph.D. program
 Reading my statement now, I find it fairly cringe-y, and my writing (and humility) has improved a lot since. I wouldn’t imitate my statement super closely, but I do think the high-level structure is good. I ended up getting accepted to around half of the programs that I applied to.
 
 My research interests have also updated significantly, and I now believe that work on machine learning safety is much more pressing than work on improving machine learning capabilities like language understanding. As a result, my research agenda now focuses on safety, and I’d encourage others applying to grad school to consider safety-related topics like [interpretability](https://distill.pub/2020/circuits/zoom-in/), [adversarial robustness](https://arxiv.org/abs/2205.01663), [red teaming](https://arxiv.org/abs/2202.03286), [backdoor attacks](https://people.cs.uchicago.edu/~ravenben/publications/pdf/backdoor-sp19.pdf), and [aligning models with human preferences](https://www.youtube.com/watch?v=BgcU_kytMf8).
+
 Best of luck applying to Ph.D. programs!
