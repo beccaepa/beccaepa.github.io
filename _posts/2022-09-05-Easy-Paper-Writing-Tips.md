@@ -26,7 +26,7 @@ excerpt: Below are a few paper writing tips that improve the clarity of research
 ![Easy Paper Writing Tips](/assets/images/writing-tips.jpeg)
 
 1. Minimize the use of pronouns (“this,” “it,” “these,” etc.) – pronouns add cognitive load to the reader. If you must use a pronoun like “this,” “those,” “that,” etc., only use it as an adjective (e.g., “this result”) to give the reader more cues about what the pronoun refers to.
-2.Put the verb as early in the sentence as possible. Early verbs make sentences easier to parse.
+2. Put the verb as early in the sentence as possible. Early verbs make sentences easier to parse.
 3. Unfold apostrophes (X’s Y -> The Y of X)
 4. Use simple (minimal syllable) words
 5. Lead and end paragraphs with strong and clear sentences. Middle sentences are for elaboration.
