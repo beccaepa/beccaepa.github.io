@@ -3,7 +3,7 @@
 layout: post
 
 # Set the title of the blog here
-title:  "Personal Research Statement forr Ph.D. Programs in Machine Learning"
+title:  "Personal Research Statement for Ph.D. Programs in Machine Learning"
 
 # Set the date here, format must be YYYY-MM-DD hh:mm:ss +TTTT.
 date: 2022-09-13 00:00:00 +0000
