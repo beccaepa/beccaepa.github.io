@@ -27,21 +27,21 @@ Often when we want to answer a question, we aren’t just interested in the answ
 
 Finding evidence can be hard work. For instance, finding evidence can require searching through large amounts of text. We found a way to find evidence automatically: *probing machine-learned models.*
 
-**Example**
+## **Example**
 
 As an example, let’s take answering multiple-choice questions about a passage. Here’s one passage/question (no need to read it all — the most relevant parts are in bold):
 
-    **Passage**: Americans often say that there are only two things a person can be sure of: death and taxes. Many people feel that the United States has the worst taxes in the world. Taxes are the money that people pay to support their government. **There are generally 3 levels of government in the U.S.: federal, state, and city; therefore, there are 3 types of taxes.** Salaried people who can earn more than four to five thousand dollars per year must pay a certain part. It depends on their salaries. **The federal government has a two-level income tax: that is, 15 or 28%.** $17,850 is the cut off. The tax rate is 15% below $17,850 and 28% above. **The second tax is for the state government: New York, California, or any of the other 48 states.** Some states have an income tax similar to that of the federal government. Of course, the percentage for the state tax is lower. Other states have a sales tax, which is a percentage charged to any item which people buy in the state. Some states use income tax and sales tax to raise their revenues (= annual income). **The third tax is for the city.** This tax comes in two forms: property tax (people who own a home have to pay taxes on it) and excise tax, which is collected on vehicles in a city. The cities use this money for education, police, public works, etc. Since Americans pay such high taxes, they often feel that they are working one day each week just to pay their taxes. People always complain about taxes. They often say that the government misuses their tax dollars. They all believe that taxes are too high in this country.
+> **Passage**: Americans often say that there are only two things a person can be sure of: death and taxes. Many people feel that the United States has the worst taxes in the world. Taxes are the money that people pay to support their government. **There are generally 3 levels of government in the U.S.: federal, state, and city; therefore, there are 3 types of taxes.** Salaried people who can earn more than four to five thousand dollars per year must pay a certain part. It depends on their salaries. **The federal government has a two-level income tax: that is, 15 or 28%.** $17,850 is the cut off. The tax rate is 15% below $17,850 and 28% above. **The second tax is for the state government: New York, California, or any of the other 48 states.** Some states have an income tax similar to that of the federal government. Of course, the percentage for the state tax is lower. Other states have a sales tax, which is a percentage charged to any item which people buy in the state. Some states use income tax and sales tax to raise their revenues (= annual income). **The third tax is for the city.** This tax comes in two forms: property tax (people who own a home have to pay taxes on it) and excise tax, which is collected on vehicles in a city. The cities use this money for education, police, public works, etc. Since Americans pay such high taxes, they often feel that they are working one day each week just to pay their taxes. People always complain about taxes. They often say that the government misuses their tax dollars. They all believe that taxes are too high in this country.
 
-    **Question:** In the U.S., taxes provide revenue for the...
+> **Question:** In the U.S., taxes provide revenue for the...
  
-    ***A.*** federal government
+> ***A.*** federal government
 
-    ***B.*** state government
+> ***B.*** state government
 
-    ***C.*** city government
+> ***C.*** city government
 
-    ***D.*** 3 levels of government
+> ***D.*** 3 levels of government
 
 To find evidence for each answer choice **A–D**, we could ask someone about each passage sentence: “Which answer does the sentence support?” But asking somebody about each sentence is time-consuming (and boring). Instead, can we replace the person with a Q&A model?
 
