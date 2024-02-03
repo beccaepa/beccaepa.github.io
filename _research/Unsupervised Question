@@ -25,7 +25,7 @@ links:
   - name: Paper
     url: https://arxiv.org/pdf/2002.09758.pdf
   - name: Blog Post
-    url: 
+    url: /_posts/2020-03-31-Unsupervised.md
   - name: Cite
     url: https://github.com/facebookresearch/UnsupervisedDecomposition#citation
   - name: Code
