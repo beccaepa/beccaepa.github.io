@@ -43,7 +43,7 @@ layout: default
   {%- if site.research.size > 0 -%}
   <h2>{{ page.list_title | default: "Research" }}</h2>
   <ul style="list-style: none;margin-left: 10px;">
-    {%- for post in site.research -%}
+    {%- for post in site.research reversed -%}
     <li style="padding: 0px;">
       <hr style="margin-top: 10px; margin-bottom: 10px; opacity: 30%;" />
 
