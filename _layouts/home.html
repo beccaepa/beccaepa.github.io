@@ -46,8 +46,7 @@ layout: default
     {%- for post in site.research reversed -%}
     <li style="padding: 0px;">
       <hr style="margin-top: 10px; margin-bottom: 10px; opacity: 30%;" />
-
-      <div style="display: flex; align-items: center; text-align: justify;">
+      <div style="display: flex; align-items: center; text-align: left;">
         <img src="{{post.image | relative_url}}" alt="{{site.title}}"
           style="width: 125px; height: 100%; margin-right: 10px; padding-right: 20px;">
         <div style="vertical-align:middle">
@@ -60,18 +59,43 @@ layout: default
           </div>
 
           {%- if post.authors -%}
-          {%- for author in post.authors -%}
+          {%- assign totalAuthors = post.authors.size -%}
+          {%- assign showOnly = 10 -%}
+
+          {%- for author in post.authors limit: showOnly -%}
           {%- if author.url -%}
-          <a href="{{ author.url | relative_url }}" style="font-size: small;">{{ author.name }}</a>{% unless
-          forloop.last %}, {%
-          endunless %}
+          <a href="{{ author.url | relative_url }}" style="font-size: small;">{{ author.name }}</a>
           {%- else -%}
-          <span style="font-size: small;">
-            {{ author.name }}{% unless forloop.last %}, {% endunless %}
-          </span>
+          <span style="font-size: small;">{{ author.name | strip }}</span><!-- 
+          --><span style="font-size: small;">{% unless forloop.last %}, {% endunless %}</span>
           {%- endif -%}
           {%- endfor -%}
+
+
+          {%- if post.authors.size > showOnly -%}
+          <span id="moreAuthors-{{ forloop.index0 }}" style="display: none; left: 0;"><!-- 
+          --><span style="font-size: small;">,</span>
+            {%- for author in post.authors offset: showOnly -%}
+            {%- if author.url -%}
+            <a href="{{ author.url | relative_url }}" style="font-size: small;">{{ author.name }}</a>{% unless
+            forloop.last %}, {%
+            endunless %}
+            {%- else -%}
+            <span style="font-size: small;">
+              {{ author.name }}{% unless forloop.last %}, {% endunless %}
+            </span>
+            {%- endif -%}
+            {%- endfor -%}
+          </span>
+
+          <a id="showMore-{{ forloop.index0 }}" href="javascript:void(0);" onclick="toggleAuthors({{ forloop.index0 }})"
+            style="font-size: small;">+ {{ totalAuthors | minus: showOnly }} more</a>
+          <a id="showLess-{{ forloop.index0 }}" href="javascript:void(0);" onclick="toggleAuthors({{ forloop.index0 }})"
+            style="font-size: small; display: none;"> - show less</a>
+
           {%- endif -%}
+          {%- endif -%}
+
           {{%- if post.subtitle -%}}
           <div style="font-size: small; font-weight: 500;">
             <em>
@@ -87,11 +111,9 @@ layout: default
             {%- endfor -%}
             {%- endif -%}
           </span>
-          <div style="font-size: small;padding-top: 5px;">
+          <div style="font-size: small;padding-top: 5px; text-align: justify;">
             {{post.content}}
           </div>
-
-
         </div>
       </div>
 
@@ -101,3 +123,21 @@ layout: default
   {%- endif -%}
 
 </div>
+
+<script>
+  function toggleAuthors(index) {
+    var moreAuthors = document.getElementById('moreAuthors-' + index);
+    var showMore = document.getElementById('showMore-' + index);
+    var showLess = document.getElementById('showLess-' + index);
+
+    if (moreAuthors.style.display === 'none') {
+      moreAuthors.style.display = 'inline';
+      showMore.style.display = 'none';
+      showLess.style.display = 'inline';
+    } else {
+      moreAuthors.style.display = 'none';
+      showMore.style.display = 'inline';
+      showLess.style.display = 'none';
+    }
+  }
+</script>
