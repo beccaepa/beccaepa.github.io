@@ -55,7 +55,7 @@ It turns out that the Judge Model is convinced by statements that do in fact sup
 
 Agent-chosen evidence is useful to Q&A models too. Q&A models are better at answering questions based on agent-chosen evidence rather than the whole passage. For example, Q&A models can generalize to longer passages than seen during training when using agent-chosen evidence. Q&A models can also better answer high-school level questions even if we have only trained the model to answer middle-school level questions. In short, model-chosen evidence helps models answer harder questions.
 
-**Why Machine Learning Researchers Should Care**
+## **Why Machine Learning Researchers Should Care**
 
 Machine-learned models are well-known to behave differently from people. Neural networks have [adversarial examples](https://arxiv.org/abs/1312.6199) and [exploit](https://arxiv.org/abs/1707.07328) [dataset](https://arxiv.org/abs/1803.02324) [biases](https://arxiv.org/abs/1811.12231). The models that we used don’t understand language well; our best model only gets a C+ on grade-level English exams (69% accuracy). That’s why it’s surprising that models still use similar evidence as people do. What’s more: as models get better, similarity to people grows:
 
