@@ -10,7 +10,7 @@ plugins:
 
 collections:
   research:
-    output: false
+    output: true
     permalink: /
   posts:
     output: true
