@@ -26,7 +26,7 @@ links:
   - name: Paper
     url: https://arxiv.org/pdf/1909.05863.pdf
   - name: Blog Post
-    url: 
+    url: blog/what-convinces-qa-models/
   - name: Cite
     url: https://aclanthology.org/D19-1244.bib
   - name: Code
