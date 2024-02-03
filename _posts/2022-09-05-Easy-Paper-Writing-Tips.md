@@ -109,7 +109,7 @@ Below are a few paper writing tips that improve the clarity of research papers, 
 
 26. Limit hedging (“may” or “can”). Hedge words should almost always be dropped.
 
-**Other Paper Writing Resources**
+## **Other Paper Writing Resources**
 
 - [How to write a research paper (talk by Simon Peyton Jones)](https://www.youtube.com/watch?v=uuoZ3becbXU)
 - [Shomir Wilson – Guide for Scholarly Writing](https://shomir.net/scholarly_writing.html)
