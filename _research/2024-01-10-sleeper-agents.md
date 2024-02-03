@@ -1,5 +1,5 @@
 ---
-title: Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training
+title: "Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training"
 
 # Path to the image file, example /assets/images/blog/image.jpg
 # You can also use an online URL as well, example https://www.google.com/image.jpg
