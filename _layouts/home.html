@@ -67,14 +67,15 @@ layout: default
           <a href="{{ author.url | relative_url }}" style="font-size: small;">{{ author.name }}</a>
           {%- else -%}
           <span style="font-size: small;">{{ author.name | strip }}</span><!-- 
-          --><span style="font-size: small;">{% unless forloop.last %}, {% endunless %}</span>
+          -->
           {%- endif -%}
+          <span style="font-size: small;">{% unless forloop.last %}, {% endunless %}</span>
           {%- endfor -%}
 
 
           {%- if post.authors.size > showOnly -%}
           <span id="moreAuthors-{{ forloop.index0 }}" style="display: none; left: 0;"><!-- 
-          --><span style="font-size: small;">,</span>
+          --><span style="font-size: small;">, </span>
             {%- for author in post.authors offset: showOnly -%}
             {%- if author.url -%}
             <a href="{{ author.url | relative_url }}" style="font-size: small;">{{ author.name }}</a>{% unless
