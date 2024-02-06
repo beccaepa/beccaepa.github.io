@@ -52,7 +52,7 @@ authors:
   - name: Ryan Greenblatt
   - name: Buck Shlegeris
   - name: Nicholas Schiefer
-  - name: <b>Ethan Perez</b>
+  - name: **Ethan Perez**
 
 ---
 
