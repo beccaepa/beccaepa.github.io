@@ -63,10 +63,15 @@ layout: default
           {%- assign showOnly = 10 -%}
 
           {%- for author in post.authors limit: showOnly -%}
+          {%- assign authorFormat = author.name == 'Ethan Perez' | ternary: "<strong>{{ author.name }}</strong>", "{{ author.name }}" -%}
           {%- if author.url -%}
-          <a href="{{ author.url | relative_url }}" style="font-size: small;">{{ author.name }}</a>
+          <a href="{{ author.url | relative_url }}" style="font-size: small;">
+              {{ authorFormat }}
+          </a>
           {%- else -%}
-          <span style="font-size: small;">{{ author.name | strip }}</span><!-- 
+          <span style="font-size: small;">
+              {{ authorFormat }}
+          </span><!-- 
           -->
           {%- endif -%}
           <span style="font-size: small;">{% unless forloop.last %}, {% endunless %}</span>
