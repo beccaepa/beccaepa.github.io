@@ -63,15 +63,19 @@ layout: default
           {%- assign showOnly = 10 -%}
 
           {%- for author in post.authors limit: showOnly -%}
-          {%- assign authorFormat = author.name == 'Ethan Perez' | ternary: "<strong>{{ author.name }}</strong>", "{{ author.name }}" -%}
+
+          {% if author.name contains site.title %}
+          {%- assign authorFormat = '<b>' | append: author.name | append: '</b>' -%}
+          {% else %}
+          {%- assign authorFormat = author.name -%}
+          {% endif %}
+
           {%- if author.url -%}
           <a href="{{ author.url | relative_url }}" style="font-size: small;">
-              {{ authorFormat }}
+            {{ authorFormat }}
           </a>
           {%- else -%}
-          <span style="font-size: small;">
-              {{ authorFormat }}
-          </span><!-- 
+          <span style="font-size: small;">{{ authorFormat }}</span><!-- 
           -->
           {%- endif -%}
           <span style="font-size: small;">{% unless forloop.last %}, {% endunless %}</span>
@@ -82,13 +86,20 @@ layout: default
           <span id="moreAuthors-{{ forloop.index0 }}" style="display: none; left: 0;"><!-- 
           --><span style="font-size: small;">, </span>
             {%- for author in post.authors offset: showOnly -%}
+            
+            {% if author.name == site.title %}
+            {%- assign authorFormat = '<b>' | append: author.name | append: '</b>' -%}
+            {% else %}
+            {%- assign authorFormat = author.name -%}
+            {% endif %}
+            
             {%- if author.url -%}
-            <a href="{{ author.url | relative_url }}" style="font-size: small;">{{ author.name }}</a>{% unless
+            <a href="{{ author.url | relative_url }}" style="font-size: small;">{{ authorFormat }}</a>{% unless
             forloop.last %}, {%
             endunless %}
             {%- else -%}
             <span style="font-size: small;">
-              {{ author.name }}{% unless forloop.last %}, {% endunless %}
+              {{ authorFormat }}{% unless forloop.last %}, {% endunless %}
             </span>
             {%- endif -%}
             {%- endfor -%}
