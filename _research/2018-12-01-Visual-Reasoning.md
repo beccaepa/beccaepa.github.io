@@ -24,8 +24,6 @@ authors:
 
 # List of links
 links:
-  - name: Paper
-    url: https://arxiv.org/pdf/1808.04446.pdf
   - name: Cite
     url: https://openaccess.thecvf.com/content_ECCV_2018/html/Florian_Strub_Visual_Reasoning_with_ECCV_2018_paper.html
   - name: Code
