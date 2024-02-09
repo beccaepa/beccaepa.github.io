@@ -22,8 +22,6 @@ authors:
 
 # List of links
 links:
-  - name: Paper
-    url: https://arxiv.org/pdf/2208.01009.pdf
   - name: Code
     url: https://github.com/JunShern/few-shot-adaptation
   - name: Cite
