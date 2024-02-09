@@ -18,8 +18,6 @@ authors:
 
 # List of links
 links:
-  - name: Paper
-    url: https://ml-retrospectives.github.io/neurips2019/accepted_retrospectives/2019/film/
   - name: Cite
     url: https://github.com/ethanjperez/film#retrospective-for-film
   - name: Talk
