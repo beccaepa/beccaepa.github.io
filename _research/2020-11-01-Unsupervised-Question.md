@@ -22,8 +22,6 @@ authors:
 
 # List of links
 links:
-  - name: Paper
-    url: https://arxiv.org/pdf/2002.09758.pdf
   - name: Blog Post
     url: blog/unsupervised-decomposition/
   - name: Cite
