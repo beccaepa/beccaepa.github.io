@@ -22,8 +22,6 @@ authors:
 
 # List of links
 links:
-  - name: Paper
-    url: https://arxiv.org/pdf/1612.01942.pdf
   - name: Cite
     url: https://www.semanticscholar.org/paper/Semi-Supervised-Learning-with-the-Deep-Rendering-Nguyen-Liu/11e9ed3ff39464bb2eb3dd4a6f180dd9c47b6458
 ---
