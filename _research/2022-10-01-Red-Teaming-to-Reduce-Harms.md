@@ -51,10 +51,6 @@ authors:
   - name: Jared Kaplan
   - name: Jack Clark
 
-# List of links
-links:
-  - name: Paper
-    url: https://arxiv.org/pdf/2209.07858.pdf
 ---
 
 <!--Abstract-->
