@@ -64,13 +64,6 @@ authors:
   - name: Samuel R. Bowman
   - name: Jared Kaplan
 
-# List of links
-links:
-  - name: Paper
-    url: https://arxiv.org/pdf/2302.07459.pdf
-  - name: Blog Post
-    url: 
- 
 ---
 
 <!--Abstract-->
