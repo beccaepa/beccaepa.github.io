@@ -61,11 +61,6 @@ authors:
   - name: Ben Mann
   - name: Jared Kaplan 
 
-# List of links
-links:
-  - name: Paper
-    url: https://arxiv.org/pdf/2211.03540.pdf
-  - name: Code
 ---
 
 <!--Abstract-->
