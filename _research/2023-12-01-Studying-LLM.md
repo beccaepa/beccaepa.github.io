@@ -32,11 +32,6 @@ authors:
   - name: Jared Kaplan
   - name: Samuel R. Bowman
 
-# List of links
-links:
-  - name: Paper
-    url: https://arxiv.org/pdf/2308.03296.pdf
-
 ---
 
 <!--Abstract-->
