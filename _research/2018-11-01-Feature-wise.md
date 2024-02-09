@@ -24,8 +24,6 @@ authors:
 
 # List of links
 links:
-  - name: Paper
-    url: https://distill.pub/2018/feature-wise-transformations/
   - name: Cite
     url: https://distill.pub/2018/feature-wise-transformations/
   - name: Code
