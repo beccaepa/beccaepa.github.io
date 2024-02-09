@@ -36,4 +36,4 @@ links:
 
 <!--Abstract-->
 
-We investigate hypotheses for how CoT reasoning may be unfaithful, by examining how the model predictions change when we intervene on the CoT.
+We aim to improve question answering (QA) by decomposing hard questions into simpler sub-questions that existing QA systems are capable of answering. 
