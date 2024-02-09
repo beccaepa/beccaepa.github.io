@@ -14,7 +14,7 @@ link: https://arxiv.org/pdf/2307.11768.pdf
 # Add list of authors here.
 # Name is mandatory, url is optional.
 authors:
-  - name: Ansh Radhakrishnan, 
+  - name: Ansh Radhakrishnan 
   - name: Karina Nguyen
   - name: Anna Chen
   - name: Carol Chen
