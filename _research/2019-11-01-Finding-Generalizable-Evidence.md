@@ -23,8 +23,6 @@ authors:
 
 # List of links
 links:
-  - name: Paper
-    url: https://arxiv.org/pdf/1909.05863.pdf
   - name: Blog Post
     url: blog/what-convinces-qa-models/
   - name: Cite
