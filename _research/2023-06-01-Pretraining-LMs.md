@@ -22,14 +22,7 @@ authors:
   - name: Jason Phang
   - name: Samuel R. Bowman
   - name: Ethan Perez
-
-# List of links
-links:
-  - name: Paper
-    url: https://arxiv.org/pdf/2302.08582.pdf
-  - name: Blog Post
-    url: 
-
+    
 ---
 
 <!--Abstract-->
