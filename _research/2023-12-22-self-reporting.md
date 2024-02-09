@@ -20,4 +20,4 @@ authors:
 
 <!--Abstract-->
 
-As AI systems become more advanced and widely deployed, there will likely be increasing debate over whether AI systems could have conscious experiences, desires, or other states of potential moral significance. It is important to inform these discussions with empirical evidence to the extent possible.
+As AI systems become more advanced and widely deployed, there will likely be increasing debate over whether AI systems could have conscious experiences, desires, or other states of potential moral significance. 
