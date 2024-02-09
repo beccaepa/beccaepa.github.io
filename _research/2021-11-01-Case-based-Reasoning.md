@@ -24,10 +24,6 @@ authors:
   - name: Lazaros Polymenakos
   - name: Andrew McCallum
 
-# List of links
-links:
-  - name: Paper
-    url: https://arxiv.org/pdf/2104.08762.pdf
 ---
 
 <!--Abstract-->
