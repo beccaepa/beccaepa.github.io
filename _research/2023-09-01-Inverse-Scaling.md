@@ -42,11 +42,6 @@ authors:
   - name: Samuel R. Bowman
   - name: Ethan Perez 
 
-# List of links
-links:
-  - name: Paper
-    url: https://arxiv.org/pdf/2306.09479.pdf
-
 ---
 
 <!--Abstract-->
