@@ -23,8 +23,6 @@ authors:
 
 # List of links
 links:
-  - name: Paper
-    url: https://arxiv.org/pdf/2204.14146.pdf
   - name: Talk 
     url: https://www.youtube.com/watch?v=oEnyl9dMKCc
 ---
