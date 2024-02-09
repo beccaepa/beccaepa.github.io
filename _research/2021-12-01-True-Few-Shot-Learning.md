@@ -20,8 +20,6 @@ authors:
 
 # List of links
 links:
-  - name: Paper
-    url: https://arxiv.org/pdf/2105.11447.pdf
   - name: Cite
     url: https://github.com/ethanjperez/true_few_shot#bibtex-citation
   - name: Code
