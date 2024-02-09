@@ -26,8 +26,6 @@ authors:
 
 # List of links
 links:
-  - name: Paper
-    url: https://arxiv.org/pdf/2202.03286.pdf
   - name: Cite
     url: https://arxiv.org/abs/2202.03286
 ---
