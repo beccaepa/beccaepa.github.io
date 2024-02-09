@@ -24,8 +24,6 @@ authors:
 
 # List of links
 links:
-  - name: Paper
-    url: https://arxiv.org/pdf/2204.05212.pdf
   - name: Blog Post
     url: https://www.alignmentforum.org/posts/CL8RFFCdsBwWWfKYS/a-small-negative-result-on-debate
 ---
