@@ -80,8 +80,6 @@ authors:
 
 # List of links
 links:
-  - name: Paper
-    url: https://arxiv.org/pdf/2212.09251.pdf
   - name: Cite
     url: https://github.com/anthropics/evals/blob/main/README.md#bibtex-citation
   - name: Data
