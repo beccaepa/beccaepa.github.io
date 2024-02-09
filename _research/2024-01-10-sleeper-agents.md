@@ -58,4 +58,4 @@ authors:
 
 <!--Abstract-->
 
-Humans are capable of strategically deceptive behavior: behaving helpfully in most situations, but then behaving very differently in order to pursue alternative objectives when given the opportunity. If an AI system learned such a deceptive strategy, could we detect it and remove it using current state-of-the-art safety training techniques? 
+If an AI system learned a deceptive strategy similar to human action, could we detect it and remove it using current state-of-the-art safety training techniques? 
