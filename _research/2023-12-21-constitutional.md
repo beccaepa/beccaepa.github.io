@@ -54,4 +54,4 @@ authors:
 
 <!--Abstract-->
 
-Human feedback can prevent overtly harmful utterances in conversational models, but may not automatically mitigate subtle problematic behaviors such as a stated desire for self-preservation or power. Constitutional AI offers an alternative, replacing human feedback with feedback from AI models conditioned only on a list of written principles.
+Constitutional AI offers an alternative to human feedback, by replacing it with feedback from AI models conditioned only on a list of written principles.
