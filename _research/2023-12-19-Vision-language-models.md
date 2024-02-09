@@ -20,10 +20,6 @@ authors:
   - name: Ethan Perez
   - name: David Lindner
 
-# List of links
-links:
-  - name: Paper
-    url: https://arxiv.org/pdf/2310.12921.pdf
 ---
 
 <!--Abstract-->
