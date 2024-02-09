@@ -23,11 +23,6 @@ authors:
   - name: Kyunghyun Cho
   - name: Ethan Perez
 
-# List of links
-links:
-  - name: Paper
-    url: https://arxiv.org/pdf/2303.16749.pdf
- 
 ---
 
 <!--Abstract-->
