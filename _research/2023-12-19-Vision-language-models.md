@@ -28,4 +28,4 @@ links:
 
 <!--Abstract-->
 
-Reinforcement learning (RL) requires either manually specifying a reward function, which is often infeasible, or learning a reward model from a large amount of human feedback, which is often very expensive. We study a more sample-efficient alternative: using pretrained vision-language models (VLMs) as zero-shot reward models (RMs) to specify tasks via natural language. 
+We study a more sample-efficient alternative than reinforcement learning (RL): using pretrained vision-language models (VLMs) as zero-shot reward models (RMs) to specify tasks via natural language. 
