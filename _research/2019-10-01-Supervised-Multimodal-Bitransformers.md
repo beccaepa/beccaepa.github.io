@@ -22,8 +22,6 @@ authors:
 
 # List of links
 links:
-  - name: Paper
-    url: https://arxiv.org/pdf/1909.02950.pdf
   - name: Cite
     url: https://github.com/facebookresearch/mmbt#citation
   - name: Code
