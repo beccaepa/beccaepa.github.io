@@ -13,4 +13,4 @@ I helped to develop [Retrieval-Augmented Generation (RAG)](https://arxiv.org/abs
 [Google Scholar](https://scholar.google.ca/citations?user=za0-taQAAAAJ&hl=en) /
 [GitHub](https://github.com/ethanjperez) /
 [Twitter](https://twitter.com/EthanJPerez) /
-[CV](/assets/pdfs/EthanPerezCV.pdf)
+[CV](/assets/pdfs/CV.pdf)
