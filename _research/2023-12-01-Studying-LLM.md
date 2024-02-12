@@ -14,9 +14,9 @@ link: https://arxiv.org/pdf/2308.03296.pdf
 # Add list of authors here.
 # Name is mandatory, url is optional.
 authors:
-  - name: Roger Grosse
-  - name: Juhan Bae
-  - name: Cem Anil
+  - name: Roger Grosse*
+  - name: Juhan Bae*
+  - name: Cem Anil*
   - name: Nelson Elhage
   - name: Alex Tamkin
   - name: Amirhossein Tajdini
@@ -32,6 +32,9 @@ authors:
   - name: Jared Kaplan
   - name: Samuel R. Bowman
 
+links:
+  - name: Talk
+    url: https://www.alignment-workshop.com/nola-talks/roger-grosse-studying-llm-generalization-through-influence-functions
 ---
 
 <!--Abstract-->
