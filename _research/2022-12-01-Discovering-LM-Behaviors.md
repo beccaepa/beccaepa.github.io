@@ -3,7 +3,7 @@ title: Discovering Language Model Behaviors with Model-Written Evaluations
 
 # Path to the image file, example /assets/images/blog/image.jpg
 # You can also use an online URL as well, example https://www.google.com/image.jpg
-image: /assets/images/Discovering_LM_behav_image.png
+image: /assets/images/evals-image.png
 
 # This is optional, if not provided it will not show on the page.
 subtitle: arXiv 2022
