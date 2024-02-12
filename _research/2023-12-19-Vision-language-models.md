@@ -1,5 +1,5 @@
 ---
-title: Vision-language models are zero-shot reward models for reinforcement learning
+title: Vision-Language Models are Zero-Shot Reward Models for Reinforcement Learning
 
 # Path to the image file, example /assets/images/blog/image.jpg
 # You can also use an online URL as well, example https://www.google.com/image.jpg
