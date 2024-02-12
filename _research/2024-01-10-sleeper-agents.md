@@ -57,6 +57,8 @@ authors:
 links:
   - name: Blog Post
     url: https://www.alignmentforum.org/posts/ZAsJv7xijKTfZkMtr/sleeper-agents-training-deceptive-llms-that-persist-through
+  - name: Code
+    url: https://github.com/anthropics/sleeper-agents-paper/tree/main
 ---
 
 <!--Abstract-->
