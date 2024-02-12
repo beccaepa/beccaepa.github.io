@@ -68,7 +68,7 @@ authors:
 
 links:
   - name: Constitutional AI Policy Memo
-    url: 
+    url: assets/pdfs/Anthropic_ConstitutionalAI_v2.pdf
 ---
 
 <!--Abstract-->
