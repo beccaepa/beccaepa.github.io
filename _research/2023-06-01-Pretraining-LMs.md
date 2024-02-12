@@ -6,10 +6,10 @@ title: Pretraining Language Models with Human Preferences
 image: /assets/images/pretraining_LMs_image.png
 
 # This is optional, if not provided it will not show on the page.
-subtitle: arXiv 2023
+subtitle: ICML 2023
 
 # This is optional, if not provided the title will not have a link to anywhere
-link: https://arxiv.org/pdf/2302.08582.pdf
+link: https://proceedings.mlr.press/v202/korbak23a/korbak23a.pdf
 
 # Add list of authors here.
 # Name is mandatory, url is optional.
