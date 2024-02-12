@@ -17,7 +17,7 @@ authors:
   - name: Miles Turpin
   - name: Julian Michael
   - name: Ethan Perez
-  - nameL Samuel R. Bowman
+  - name: Samuel R. Bowman
 ---
 
 <!--Abstract-->
