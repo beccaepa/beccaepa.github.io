@@ -3,7 +3,7 @@ title: Learning Visual Reasoning Without Strong Priors
 
 # Path to the image file, example /assets/images/blog/image.jpg
 # You can also use an online URL as well, example https://www.google.com/image.jpg
-image: /assets/images/FiLM_image.png
+image: /assets/images/visual-reasoning-image.png
 
 # This is optional, if not provided it will not show on the page.
 subtitle: ICML 2017 Workshop
