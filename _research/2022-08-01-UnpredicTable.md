@@ -6,7 +6,7 @@ title: Few-shot Adaptation Works with UnpredicTable Data
 image: /assets/images/unpredicTable_image.png
 
 # This is optional, if not provided it will not show on the page.
-subtitle: arXiv 2022
+subtitle: ACL 2023
 
 # This is optional, if not provided the title will not have a link to anywhere
 link: https://arxiv.org/pdf/2208.01009.pdf
