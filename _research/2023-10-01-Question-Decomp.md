@@ -39,6 +39,11 @@ authors:
   - name: Samuel R Bowman
   - name: Ethan Perez
 
+links:
+  - name: Blog Post
+    url: https://www.lesswrong.com/posts/BKvJNzALpxS3LafEs/measuring-and-improving-the-faithfulness-of-model-generated
+  - name: Code
+    url: https://github.com/anthropics/DecompositionFaithfulnessPaper
 ---
 
 <!--Abstract-->
