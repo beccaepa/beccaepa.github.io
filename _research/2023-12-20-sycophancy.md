@@ -14,8 +14,8 @@ link: https://arxiv.org/pdf/2310.13548.pdf
 # Add list of authors here.
 # Name is mandatory, url is optional.
 authors:
-  - name: Mrinank Sharma
-  - name: Meg Tong
+  - name: Mrinank Sharma*
+  - name: Meg Tong*
   - name: Tomasz Korbak
   - name: David Duvenaud
   - name: Amanda Askell
@@ -34,6 +34,11 @@ authors:
   - name: Miranda Zhang
   - name: Ethan Perez
 
+links:
+  - name: Code
+    url: https://github.com/meg-tong/sycophancy-eval
+  - name: Blog Post
+    url: https://www.lesswrong.com/posts/g5rABd5qbp8B4g3DE/towards-understanding-sycophancy-in-language-models
 ---
 
 <!--Abstract-->
