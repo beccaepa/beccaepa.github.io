@@ -16,6 +16,12 @@ link: https://arxiv.org/pdf/2311.08576.pdf
 authors:
   - name: Ethan Perez
   - name: Robert Long
+
+links:
+  - name: LessWrong
+    url: https://www.lesswrong.com/posts/rzsiYS2zyzjto4epY/towards-evaluating-ai-systems-for-moral-status-using-self
+  - name: Blog Post
+    url: https://experiencemachines.substack.com/p/speaking-of-sentience
 ---
 
 <!--Abstract-->
