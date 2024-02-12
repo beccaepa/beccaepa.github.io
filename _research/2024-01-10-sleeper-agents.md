@@ -14,10 +14,10 @@ link: https://arxiv.org/pdf/2401.05566.pdf
 # Add list of authors here.
 # Name is mandatory, url is optional.
 authors:
-  - name: Evan Hubinger
-  - name: Carson Denison
-  - name: Jesse Mu
-  - name: Mike Lambert
+  - name: Evan Hubinger*
+  - name: Carson Denison*
+  - name: Jesse Mu*
+  - name: Mike Lambert*
   - name: Meg Tong
   - name: Monte MacDiarmid
   - name: Tamera Lanham
