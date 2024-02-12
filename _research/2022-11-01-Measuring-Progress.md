@@ -3,7 +3,7 @@ title: Measuring Progress on Scalable Oversight for Large Language Models
 
 # Path to the image file, example /assets/images/blog/image.jpg
 # You can also use an online URL as well, example https://www.google.com/image.jpg
-image: /assets/images/measuring_progress_image1.png
+image: /assets/images/progress-image.png
 
 # This is optional, if not provided it will not show on the page.
 subtitle: arXiv 2022
