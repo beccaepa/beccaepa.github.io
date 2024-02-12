@@ -3,7 +3,7 @@ title: Studying Large Language Model Generalization with Influence Functions
 
 # Path to the image file, example /assets/images/blog/image.jpg
 # You can also use an online URL as well, example https://www.google.com/image.jpg
-image: /assets/images/influence_image.png
+image: /assets/images/influence-image.png
 
 # This is optional, if not provided it will not show on the page.
 subtitle: arXiv 2023
