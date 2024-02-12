@@ -6,7 +6,7 @@ title: "Language Models Don't Always Say What They Think: Unfaithful Explanation
 image: /assets/images/unfaithful-explanation.png
 
 # This is optional, if not provided it will not show on the page.
-subtitle: arXiv 2023
+subtitle: NeurIPS 2023
 
 # This is optional, if not provided the title will not have a link to anywhere
 link: https://arxiv.org/pdf/2305.04388.pdf
@@ -18,6 +18,12 @@ authors:
   - name: Julian Michael
   - name: Ethan Perez
   - name: Samuel R. Bowman
+
+links:
+  - name: Blog Post
+    url: https://www.alignmentforum.org/posts/6eKL9wDqeiELbKPDj/unfaithful-explanations-in-chain-of-thought-prompting
+  - name: Code
+    url: https://github.com/milesaturpin/cot-unfaithfulness
 ---
 
 <!--Abstract-->
