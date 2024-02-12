@@ -1,5 +1,5 @@
 ---
-title: Measuring faithfulness in chain-of-thought reasoning
+title: Measuring Faithfulness in Chain-of-Thought Reasoning
 
 # Path to the image file, example /assets/images/blog/image.jpg
 # You can also use an online URL as well, example https://www.google.com/image.jpg
