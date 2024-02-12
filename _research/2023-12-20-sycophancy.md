@@ -1,5 +1,5 @@
 ---
-title: Towards understanding sycophancy in language models
+title: Towards Understanding Sycophancy in Language Models
 
 # Path to the image file, example /assets/images/blog/image.jpg
 # You can also use an online URL as well, example https://www.google.com/image.jpg
