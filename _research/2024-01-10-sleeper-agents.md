@@ -54,6 +54,9 @@ authors:
   - name: Nicholas Schiefer
   - name: Ethan Perez
 
+links:
+  - name: Blog Post
+    url: https://www.alignmentforum.org/posts/ZAsJv7xijKTfZkMtr/sleeper-agents-training-deceptive-llms-that-persist-through
 ---
 
 <!--Abstract-->
