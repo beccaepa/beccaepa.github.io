@@ -23,6 +23,8 @@ authors:
 
 # List of links
 links:
+  - name: FAR AI
+    url: https://far.ai/publication/scheurer2022training/
   - name: Talk 
     url: https://www.youtube.com/watch?v=oEnyl9dMKCc
 ---
