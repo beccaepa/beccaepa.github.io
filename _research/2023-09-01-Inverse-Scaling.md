@@ -54,6 +54,10 @@ links:
     url: https://twitter.com/EthanJPerez/status/1541454949397041154
   - name: Blog Post
     url: blog/inverse-scaling-prize/
+  - name: Cite
+    url: https://far.ai/publication/mckenzie2023inverse/#
+  - name: FAR AI
+    url: https://far.ai/publication/mckenzie2023inverse/
 ---
 
 <!--Abstract-->
