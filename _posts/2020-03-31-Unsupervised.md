@@ -25,7 +25,7 @@ excerpt: We improve question answering (QA) by decomposing hard questions into e
 
 We improve question answering (QA) by decomposing hard questions into easier sub-questions that existing QA systems can answer. Since annotating questions with sub-questions is time-consuming, we propose an unsupervised approach to produce sub-questions, which also lets us learn from millions of questions from the Internet. We answer sub-questions with an off-the-shelf QA model and incorporate the resulting answers in a downstream QA system, showing strong improvements on multi-hop QA.
 
-![Inverse Scaling Prize Ideas](/assets/images/unsupervised_image1.png)
+![Inverse Scaling Prize Ideas](/assets/images/smaller1.png)
 
 ## **How it works:**
 
