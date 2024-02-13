@@ -67,8 +67,14 @@ authors:
   - name: Jared Kaplan
 
 links:
+  - name: Blog Post
+    url: https://www.lesswrong.com/posts/aLhLGns2BSun3EzXB/paper-constitutional-ai-harmlessness-from-ai-feedback
+  - name: Code
+    url: https://github.com/anthropics/ConstitutionalHarmlessnessPaper
   - name: Constitutional AI Policy Memo
     url: assets/pdfs/Anthropic_ConstitutionalAI_v2.pdf
+  - name: Twitter Thread
+    url: https://twitter.com/AnthropicAI/status/1603791161419698181
 ---
 
 <!--Abstract-->
