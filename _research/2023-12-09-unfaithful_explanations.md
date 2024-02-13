@@ -24,6 +24,8 @@ links:
     url: https://www.alignmentforum.org/posts/6eKL9wDqeiELbKPDj/unfaithful-explanations-in-chain-of-thought-prompting
   - name: Code
     url: https://github.com/milesaturpin/cot-unfaithfulness
+  - name: Twitter Thread
+    url: https://twitter.com/milesaturpin/status/1656010877269602304
 ---
 
 <!--Abstract-->
