@@ -28,6 +28,8 @@ links:
     url: https://distill.pub/2018/feature-wise-transformations/
   - name: Code
     url: https://github.com/distillpub/post--feature-wise-transformations
+  - name: Talk
+    url: https://youtu.be/yK2CAM1GINE?si=4E7MN1xTXBydVzXZ
 ---
 
 <!--Abstract-->
