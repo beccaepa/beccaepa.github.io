@@ -22,7 +22,16 @@ authors:
   - name: Jason Phang
   - name: Samuel R. Bowman
   - name: Ethan Perez
-    
+
+links:
+  - name: Blog Post
+    url: https://www.lesswrong.com/posts/8F4dXYriqbsom46x5/pretraining-language-models-with-human-preferences
+  - name: Code
+    url: https://github.com/tomekkorbak/pretraining-with-human-feedback
+  - name: FAR AI
+    url: https://far.ai/publication/korbak2023pretraining/
+  - name: Talk
+    url: https://youtu.be/r8ibxJEleVI?si=ShCnTj8RI12zzaSi
 ---
 
 <!--Abstract-->
