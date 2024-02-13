@@ -6,7 +6,7 @@ title: Towards Understanding Sycophancy in Language Models
 image: /assets/images/syco-image.png
 
 # This is optional, if not provided it will not show on the page.
-subtitle: arXiv 2023
+subtitle: ICLR 2024
 
 # This is optional, if not provided the title will not have a link to anywhere
 link: https://arxiv.org/pdf/2310.13548.pdf
@@ -39,6 +39,8 @@ links:
     url: https://www.lesswrong.com/posts/g5rABd5qbp8B4g3DE/towards-understanding-sycophancy-in-language-models
   - name: Code
     url: https://github.com/meg-tong/sycophancy-eval
+  - name: Twitter Thread
+    url: https://twitter.com/AnthropicAI/status/1716529993281601798/
 ---
 
 <!--Abstract-->
