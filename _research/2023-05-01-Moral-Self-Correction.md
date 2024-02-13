@@ -64,6 +64,11 @@ authors:
   - name: Samuel R. Bowman
   - name: Jared Kaplan
 
+links:
+  - name: Blog Post
+    url: https://www.lesswrong.com/posts/PrLnptfNDg2wBWNyb/paper-the-capacity-for-moral-self-correction-in-large
+  - name: Twitter Thread
+    url: https://twitter.com/AnthropicAI/status/1626260971227586560/
 ---
 
 <!--Abstract-->
