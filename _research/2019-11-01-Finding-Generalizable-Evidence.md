@@ -31,6 +31,8 @@ links:
     url: https://github.com/ethanjperez/convince
   - name: Press
     url: https://techxplore.com/news/2019-09-approach-qa.html
+  - name: Twitter Thread
+    url: https://twitter.com/EthanJPerez/status/1173649529012404224
 ---
 
 <!--Abstract-->
