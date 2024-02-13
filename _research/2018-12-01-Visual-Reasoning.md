@@ -28,6 +28,8 @@ links:
     url: https://openaccess.thecvf.com/content_ECCV_2018/html/Florian_Strub_Visual_Reasoning_with_ECCV_2018_paper.html
   - name: Code
     url: https://github.com/GuessWhatGame
+  - name: Talk
+    url: https://youtu.be/BZKzHAOilNo?si=IuHKzwbnlz8KodJA
 ---
 
 <!--Abstract-->
