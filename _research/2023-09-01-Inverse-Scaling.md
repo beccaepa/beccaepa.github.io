@@ -54,6 +54,8 @@ links:
     url: https://github.com/inverse-scaling/prize
   - name: Related Work
     url: https://twitter.com/EthanJPerez/status/1541454949397041154
+  - name: Twitter Thread
+    url: https://twitter.com/EthanJPerez/status/1671222828518227968
   - name: Winners
     url: https://irmckenzie.co.uk/round1
 
@@ -61,4 +63,4 @@ links:
 
 <!--Abstract-->
 
-We present evidence for the claim that LMs may show inverse scaling, or worse task performance with increased scale. We’re announcing the ISP: a $100k grand prize + $150k in additional prizes for finding an important task where larger language models do *worse*.
+We present evidence for the claim that LMs may show inverse scaling, or worse task performance with increased scale, based on our previous announcement: a $100k grand prize + $150k in additional prizes for finding an important task where larger language models do *worse*.
