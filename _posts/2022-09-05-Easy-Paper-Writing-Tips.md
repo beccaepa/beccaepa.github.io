@@ -15,7 +15,7 @@ image: /assets/images/writing-tips.jpeg
 
 # This is an optional field which sets the link of the blog post.
 # If not provided, a link will be generated automatically with the title of the blog post.
-permalink: blog/easy-paper-writing-tips/
+permalink: /easy-paper-writing-tips/
 
 # This is the excerpt of the blog post which will be shown in the blog listing page.
 excerpt: Below are a few paper writing tips that improve the clarity of research papers, while also being fairly easy to implement
