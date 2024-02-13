@@ -25,6 +25,8 @@ links:
     url: https://github.com/AlignmentResearch/vlmrm
   - name: FAR AI
     url: https://far.ai/post/2023-10-vlm-rm/
+  - name: Twitter Thread
+    url: https://twitter.com/EthanJPerez/status/1716523528353382411
   - name: Website
     url: https://sites.google.com/view/vlm-rm
 ---
