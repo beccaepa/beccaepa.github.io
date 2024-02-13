@@ -30,6 +30,8 @@ links:
     url: https://huggingface.co/datasets/MicPie/unpredictable_full
   - name: FAR AI
     url: https://far.ai/publication/chan2022few/
+  - name: Twitter Thread
+    url: https://twitter.com/junshernchan/status/1554151844879876096
 ---
 
 <!--Abstract-->
