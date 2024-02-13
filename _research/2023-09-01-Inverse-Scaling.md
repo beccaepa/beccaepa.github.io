@@ -44,20 +44,21 @@ authors:
 
 # List of links
 links:
-  - name: GitHub
-    url: https://github.com/inverse-scaling/prize
-  - name: Winners
-    url: https://irmckenzie.co.uk/round1
   - name: AI Safety Relevance
     url: https://www.alignmentforum.org/posts/eqxqgFxymP8hXDTt5/announcing-the-inverse-scaling-prize-usd250k-prize-pool
-  - name: Related Work
-    url: https://twitter.com/EthanJPerez/status/1541454949397041154
   - name: Blog Post
     url: blog/inverse-scaling-prize/
   - name: Cite
     url: https://far.ai/publication/mckenzie2023inverse/#
   - name: FAR AI
     url: https://far.ai/publication/mckenzie2023inverse/
+  - name: GitHub
+    url: https://github.com/inverse-scaling/prize
+  - name: Related Work
+    url: https://twitter.com/EthanJPerez/status/1541454949397041154
+  - name: Winners
+    url: https://irmckenzie.co.uk/round1
+
 ---
 
 <!--Abstract-->
