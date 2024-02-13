@@ -24,6 +24,13 @@ authors:
   - name: Lazaros Polymenakos
   - name: Andrew McCallum
 
+links:
+  - name: Blog Post
+    url: https://ameyagodbole.github.io/project/case-based-reasoning/
+  - name: Cite
+    url: https://github.com/rajarshd/CBR-AKBC?tab=readme-ov-file#citation
+  - name: Code
+    url: https://github.com/rajarshd/CBR-AKBC
 ---
 
 <!--Abstract-->
