@@ -26,6 +26,8 @@ authors:
 links:
   - name: Blog Post
     url: https://www.alignmentforum.org/posts/CL8RFFCdsBwWWfKYS/a-small-negative-result-on-debate
+  - name: Twitter Thread
+    url: https://twitter.com/AliciaVParrish/status/1514410868817244167
 ---
 
 <!--Abstract-->
