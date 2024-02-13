@@ -38,6 +38,8 @@ links:
     url: https://huggingface.co/facebook/rag-token-nq
   - name: Talk
     url: https://www.youtube.com/watch?v=JGpmQvlYRdU
+  - name: Twitter Thread
+    url: https://twitter.com/PSH_Lewis/status/1265300549777440775
 
 ---
 
