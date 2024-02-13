@@ -32,7 +32,8 @@ links:
     url: https://far.ai/publication/chen2023improving/
   - name: Talk
     url: https://youtu.be/Ex2qCbZCIFI?si=ZtODRLBSA3q-pH4I
-
+  - name: Twitter Thread
+    url: https://twitter.com/jeremy_scheurer/status/1668292756702400518
 ---
 
 <!--Abstract-->
