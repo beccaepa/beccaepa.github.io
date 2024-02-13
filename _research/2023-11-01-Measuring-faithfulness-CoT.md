@@ -48,6 +48,8 @@ authors:
 links:
   - name: Blog Post
     url: https://www.lesswrong.com/posts/BKvJNzALpxS3LafEs/measuring-and-improving-the-faithfulness-of-model-generated
+  - name: Twitter Thread
+    url: https://twitter.com/AnthropicAI/status/1681341063083229189/
 ---
 
 <!--Abstract-->
