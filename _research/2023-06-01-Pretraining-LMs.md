@@ -32,6 +32,8 @@ links:
     url: https://far.ai/publication/korbak2023pretraining/
   - name: Talk
     url: https://youtu.be/r8ibxJEleVI?si=ShCnTj8RI12zzaSi
+  - name: Twitter Thread
+    url: https://twitter.com/tomekkorbak/status/1628088313252052993
 ---
 
 <!--Abstract-->
