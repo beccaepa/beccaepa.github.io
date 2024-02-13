@@ -35,6 +35,8 @@ authors:
 links:
   - name: Talk
     url: https://www.alignment-workshop.com/nola-talks/roger-grosse-studying-llm-generalization-through-influence-functions
+  - name: Twitter Thread
+    url: https://twitter.com/AnthropicAI/status/1688946685937090560
 ---
 
 <!--Abstract-->
