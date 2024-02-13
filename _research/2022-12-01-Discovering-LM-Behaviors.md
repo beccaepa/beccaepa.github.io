@@ -80,14 +80,21 @@ authors:
 
 # List of links
 links:
+  - name: AI Safety Relevance
+    url: https://twitter.com/EthanJPerez/status/1604886089403346944?s=20&t=PgImR9_v9HqMYc_Wtum5Eg
+  - name: Blog Post
+    url: https://www.lesswrong.com/posts/yRAo2KEGWenKYZG9K/discovering-language-model-behaviors-with-model-written
   - name: Cite
     url: https://github.com/anthropics/evals/blob/main/README.md#bibtex-citation
   - name: Data
     url: https://github.com/anthropics/evals
   - name: Data Visualization
-    url: https://www.evals.anthropic.com/model-written/
-  - name: AI Safety Relevance
-    url: https://twitter.com/EthanJPerez/status/1604886089403346944?s=20&t=PgImR9_v9HqMYc_Wtum5Eg
+    url: https://www.evals.anthropic.com/
+  - name: Talk
+    url: https://youtu.be/jslSqapaBbI?si=_9tZ0Xl5AGPGyLVD
+  - name: Twitter Thread
+    url: https://twitter.com/AnthropicAI/status/1604883576218341376
+
 ---
 
 <!--Abstract-->
