@@ -22,12 +22,14 @@ authors:
 
 # List of links
 links:
-  - name: Code
-    url: https://github.com/JunShern/few-shot-adaptation
   - name: Cite
     url: https://github.com/JunShern/few-shot-adaptation#citation
+  - name: Code
+    url: https://github.com/JunShern/few-shot-adaptation
   - name: Data
     url: https://huggingface.co/datasets/MicPie/unpredictable_full
+  - name: FAR AI
+    url: https://far.ai/publication/chan2022few/
 ---
 
 <!--Abstract-->
