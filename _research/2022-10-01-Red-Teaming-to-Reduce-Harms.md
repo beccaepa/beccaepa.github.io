@@ -51,6 +51,11 @@ authors:
   - name: Jared Kaplan
   - name: Jack Clark
 
+links:
+  - name: Code
+    url: https://github.com/anthropics/hh-rlhf
+  - name: Twitter Thread
+    url: https://twitter.com/AnthropicAI/status/1571988929800273932?lang=en
 ---
 
 <!--Abstract-->
