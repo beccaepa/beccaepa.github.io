@@ -29,8 +29,10 @@ links:
     url: https://github.com/JeremyAlain/imitation_learning_from_language_feedback
   - name: FAR AI
     url: https://far.ai/publication/scheurer2023training/
+  - name: Talk
+    url: https://youtu.be/oEnyl9dMKCc?si=G3IFPmoV6FVN1eyq
   - name: Twitter Thread
-    url: https://twitter.com/jeremy_scheurer/status/1668292694563758080
+    url: https://twitter.com/jeremy_scheurer/status/1521174014194032642
 ---
 
 <!--Abstract-->
