@@ -28,7 +28,7 @@ authors:
 links:
   - name: Blog Post
     url: https://deepmind.google/discover/blog/red-teaming-language-models-with-language-models/
-  - Twitter Thread
+  - name: Twitter Thread
     url: https://twitter.com/GoogleDeepMind/status/1490730149314236417
 ---
 
