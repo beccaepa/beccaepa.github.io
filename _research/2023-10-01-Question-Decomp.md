@@ -44,6 +44,8 @@ links:
     url: https://www.lesswrong.com/posts/BKvJNzALpxS3LafEs/measuring-and-improving-the-faithfulness-of-model-generated
   - name: Code
     url: https://github.com/anthropics/DecompositionFaithfulnessPaper
+  - name: Twitter Thread
+    url: https://twitter.com/AnthropicAI/status/1681341063083229189/
 ---
 
 <!--Abstract-->
