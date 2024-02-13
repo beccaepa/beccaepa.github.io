@@ -26,8 +26,10 @@ authors:
 
 # List of links
 links:
-  - name: Cite
-    url: https://arxiv.org/abs/2202.03286
+  - name: Blog Post
+    url: https://deepmind.google/discover/blog/red-teaming-language-models-with-language-models/
+  - Twitter Thread
+    url: https://twitter.com/GoogleDeepMind/status/1490730149314236417
 ---
 
 <!--Abstract-->
