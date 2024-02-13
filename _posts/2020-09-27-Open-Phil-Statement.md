@@ -15,7 +15,7 @@ image: /assets/images/openphil.png
 
 # This is an optional field which sets the link of the blog post.
 # If not provided, a link will be generated automatically with the title of the blog post.
-permalink: blog/open-philanthropy-ai-fellowship/
+permalink: /open-philanthropy-ai-fellowship/
 
 # This is the excerpt of the blog post which will be shown in the blog listing page.
 excerpt: A few people have asked to read my personal statement for the Open Philanthropy AI Fellowship after I was awarded the fellowship this year (2020).
