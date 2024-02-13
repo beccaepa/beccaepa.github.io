@@ -59,7 +59,11 @@ authors:
   - name: Yuntao Bai
   - name: Zac Hatfield-Dodds
   - name: Ben Mann
-  - name: Jared Kaplan 
+  - name: Jared Kaplan
+
+links:
+  - name: Twitter Thread
+    url: https://twitter.com/AnthropicAI/status/1590019597109202946?lang=en
 
 ---
 
