@@ -21,12 +21,12 @@ authors:
   - name: David Lindner*
 
 links:
-  - name: Website
-    url: https://sites.google.com/view/vlm-rm
   - name: Code
     url: https://github.com/AlignmentResearch/vlmrm
   - name: FAR AI
     url: https://far.ai/post/2023-10-vlm-rm/
+  - name: Website
+    url: https://sites.google.com/view/vlm-rm
 ---
 
 <!--Abstract-->
