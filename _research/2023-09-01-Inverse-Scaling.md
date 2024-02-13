@@ -48,8 +48,6 @@ links:
     url: https://www.alignmentforum.org/posts/eqxqgFxymP8hXDTt5/announcing-the-inverse-scaling-prize-usd250k-prize-pool
   - name: Blog Post
     url: blog/inverse-scaling-prize/
-  - name: Cite
-    url: https://far.ai/publication/mckenzie2023inverse/#
   - name: FAR AI
     url: https://far.ai/publication/mckenzie2023inverse/
   - name: GitHub
