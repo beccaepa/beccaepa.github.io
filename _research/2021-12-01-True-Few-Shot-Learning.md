@@ -26,6 +26,8 @@ links:
     url: https://github.com/ethanjperez/true_few_shot
   - name: Talk
     url: https://www.youtube.com/watch?v=GsIJhhCznls
+  - name: Twitter Thread
+    url: https://twitter.com/EthanJPerez/status/1397015129506541570
 ---
 
 <!--Abstract-->
