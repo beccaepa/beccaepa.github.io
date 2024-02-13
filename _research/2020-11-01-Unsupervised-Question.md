@@ -32,6 +32,8 @@ links:
     url: /assets/pdfs/UQD4QA.pdf
   - name: Talk
     url: https://slideslive.com/38938683/unsupervised-question-decomposition-for-question-answering
+  - name: Twitter Thread
+    url: https://twitter.com/EthanJPerez/status/1232127027961942018
 ---
 
 <!--Abstract-->
