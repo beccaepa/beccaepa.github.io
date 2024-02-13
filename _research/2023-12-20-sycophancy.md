@@ -35,10 +35,10 @@ authors:
   - name: Ethan Perez
 
 links:
-  - name: Code
-    url: https://github.com/meg-tong/sycophancy-eval
   - name: Blog Post
     url: https://www.lesswrong.com/posts/g5rABd5qbp8B4g3DE/towards-understanding-sycophancy-in-language-models
+  - name: Code
+    url: https://github.com/meg-tong/sycophancy-eval
 ---
 
 <!--Abstract-->
