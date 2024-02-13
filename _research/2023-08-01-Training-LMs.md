@@ -22,6 +22,15 @@ authors:
   - name: Kyunghyun Cho
   - name: Ethan Perez
 
+links:
+  - name: Blog Post
+    url: https://www.lesswrong.com/posts/mCZSXdZoNoWn5SkvE/imitation-learning-from-language-feedback-1
+  - name: Code
+    url: https://github.com/JeremyAlain/imitation_learning_from_language_feedback
+  - name: Cite
+    url: https://far.ai/publication/scheurer2023training/#
+  - name: FAR AI
+    url: https://far.ai/publication/scheurer2023training/
 ---
 
 <!--Abstract-->
