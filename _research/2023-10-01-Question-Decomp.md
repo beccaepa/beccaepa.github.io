@@ -3,7 +3,7 @@ title: Question Decomposition Improves the Faithfulness of Model-Generated Reaso
 
 # Path to the image file, example /assets/images/blog/image.jpg
 # You can also use an online URL as well, example https://www.google.com/image.jpg
-image: /assets/images/faithfulness-image.png
+image: /assets/images/decomp-image.png
 
 # This is optional, if not provided it will not show on the page.
 subtitle: arXiv 2023
