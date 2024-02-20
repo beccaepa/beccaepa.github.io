@@ -82,17 +82,46 @@ layout: default
           {%- endfor -%}
 
 
+          {%- assign showOnlyCutoff = showOnly | minus: 2 -%}
           {%- if post.authors.size > showOnly -%}
           <span id="moreAuthors-{{ forloop.index0 }}" style="display: none; left: 0;"><!-- 
           --><span style="font-size: small;">, </span>
             {%- for author in post.authors offset: showOnly -%}
-            
+
             {% if author.name == site.title %}
             {%- assign authorFormat = '<b>' | append: author.name | append: '</b>' -%}
             {% else %}
             {%- assign authorFormat = author.name -%}
             {% endif %}
-            
+
+            {%- if author.url -%}
+            <a href="{{ author.url | relative_url }}" style="font-size: small;">{{ authorFormat }}</a>{% unless
+            forloop.last %}, {%
+            endunless %}
+            {%- else -%}
+            <span style="font-size: small;">
+              {{ authorFormat }}{% unless forloop.last %}, {% endunless %}
+            </span>
+            {%- endif -%}
+            {%- endfor -%}
+          </span><!--
+          -->
+          {%- if post.authors.size > 12 -%}
+          <span id="showMore-{{ forloop.index0 }}"><!--
+          --><span style="font-size: small;">, </span>
+            <a id="" href="javascript:void(0);" onclick="toggleAuthors({{ forloop.index0 }})"
+              style="font-size: small;">+ {{ totalAuthors | minus: showOnly | minus: 2 }} more</a></span>
+          {%- endif -%}
+          <span id="lastTwoAuthors-{{ forloop.index0 }}" style="display: inline; left: 0;"><!--
+          --><span style="font-size: small;">, </span>
+            {%- assign totalAuthors = post.authors.size -%}
+            {%- assign lastTwo = totalAuthors | minus: 2 -%}
+            {%- for author in post.authors | offset: lastTwo -%}
+            {% if author.name == site.title %}
+            {%- assign authorFormat = '<b>' | append: author.name | append: '</b>' -%}
+            {% else %}
+            {%- assign authorFormat = author.name -%}
+            {% endif %}
             {%- if author.url -%}
             <a href="{{ author.url | relative_url }}" style="font-size: small;">{{ authorFormat }}</a>{% unless
             forloop.last %}, {%
@@ -105,8 +134,6 @@ layout: default
             {%- endfor -%}
           </span>
 
-          <a id="showMore-{{ forloop.index0 }}" href="javascript:void(0);" onclick="toggleAuthors({{ forloop.index0 }})"
-            style="font-size: small;">+ {{ totalAuthors | minus: showOnly }} more</a>
           <a id="showLess-{{ forloop.index0 }}" href="javascript:void(0);" onclick="toggleAuthors({{ forloop.index0 }})"
             style="font-size: small; display: none;"> - show less</a>
 
@@ -146,15 +173,19 @@ layout: default
     var moreAuthors = document.getElementById('moreAuthors-' + index);
     var showMore = document.getElementById('showMore-' + index);
     var showLess = document.getElementById('showLess-' + index);
+    var lastTwoAuthors = document.getElementById('lastTwoAuthors-' + index);
 
     if (moreAuthors.style.display === 'none') {
       moreAuthors.style.display = 'inline';
       showMore.style.display = 'none';
       showLess.style.display = 'inline';
+      lastTwoAuthors.style.display = 'none';
+
     } else {
       moreAuthors.style.display = 'none';
       showMore.style.display = 'inline';
       showLess.style.display = 'none';
+      lastTwoAuthors.style.display = 'inline';
     }
   }
 </script>
