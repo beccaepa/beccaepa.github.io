@@ -1,5 +1,5 @@
 ---
-title: Sycophancy to Subterfuge: Investigating Reward-Tampering in Large Language Models
+title: "Sycophancy to Subterfuge: Investigating Reward-Tampering in Large Language Models"
 
 # Path to the image file, example /assets/images/blog/image.jpg
 # You can also use an online URL as well, example https://www.google.com/image.jpg
