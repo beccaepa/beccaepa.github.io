@@ -6,7 +6,7 @@ title: "Inverse Scaling: When Bigger Isn’t Better"
 image: /assets/images/inverse_scaling_prize_image.png
 
 # This is optional, if not provided it will not show on the page.
-subtitle: arXiv 2023
+subtitle: TMLR 2023
 
 # This is optional, if not provided the title will not have a link to anywhere
 link: https://arxiv.org/pdf/2306.09479.pdf
