@@ -28,4 +28,4 @@ links:
 ---
 
 <!--Abstract-->
-On a question-answering task (QuALITY) and programming task (APPS), RLHF makes LMs better at convincing our subjects but not at completing the task correctly. 
+Language models (LMs) can produce hard-to-detect errors, especially in complex tasks, and we study this phenomenon under a standard RLHF pipeline, calling it “U-Sophistry” since it is Unintended by model developers, where time-constrained human subjects evaluate model outputs, revealing that RLHF improves LMs' ability to convince but not their accuracy, and shows that existing detection methods do not generalize to U-Sophistry, highlighting a significant failure mode of RLHF and the need for more research in human alignment.
