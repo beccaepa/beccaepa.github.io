@@ -94,7 +94,7 @@ links:
     url: https://youtu.be/jslSqapaBbI?si=_9tZ0Xl5AGPGyLVD
   - name: Twitter Thread
     url: https://twitter.com/AnthropicAI/status/1604883576218341376
-  - name: ACL
+  - name: Cite
     url: https://aclanthology.org/2023.findings-acl.847/
 
 ---
