@@ -6,7 +6,7 @@ title: Vision-Language Models are Zero-Shot Reward Models for Reinforcement Lear
 image: /assets/images/visual-image.png
 
 # This is optional, if not provided it will not show on the page.
-subtitle: NeurIPS 2023 Workshop
+subtitle: ICLR 2023 
 
 # This is optional, if not provided the title will not have a link to anywhere
 link: https://arxiv.org/pdf/2310.12921.pdf
