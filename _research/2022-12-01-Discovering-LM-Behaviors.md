@@ -6,7 +6,7 @@ title: Discovering Language Model Behaviors with Model-Written Evaluations
 image: /assets/images/evals-image.png
 
 # This is optional, if not provided it will not show on the page.
-subtitle: arXiv 2022
+subtitle: ACL 2023 Findings of the Association for Computational Linguistics
 
 # This is optional, if not provided the title will not have a link to anywhere
 link: https://arxiv.org/pdf/2212.09251.pdf
@@ -94,6 +94,8 @@ links:
     url: https://youtu.be/jslSqapaBbI?si=_9tZ0Xl5AGPGyLVD
   - name: Twitter Thread
     url: https://twitter.com/AnthropicAI/status/1604883576218341376
+  - name: ACL
+    url: https://aclanthology.org/2023.findings-acl.847/
 
 ---
 
