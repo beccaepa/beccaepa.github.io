@@ -6,7 +6,7 @@ title: Discovering Language Model Behaviors with Model-Written Evaluations
 image: /assets/images/evals-image.png
 
 # This is optional, if not provided it will not show on the page.
-subtitle: ACL 2023 Findings of the Association for Computational Linguistics
+subtitle: Findings of ACL 2023
 
 # This is optional, if not provided the title will not have a link to anywhere
 link: https://arxiv.org/pdf/2212.09251.pdf
