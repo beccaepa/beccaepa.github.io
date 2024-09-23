@@ -1,0 +1,31 @@
+---
+title: Language Models Learn to Mislead Humans via RLHF
+
+# Path to the image file, example /assets/images/blog/image.jpg
+# You can also use an online URL as well, example https://www.google.com/image.jpg
+image: /assets/images/x1.png
+
+# This is optional, if not provided it will not show on the page.
+subtitle: arXiv 2024
+
+# This is optional, if not provided the title will not have a link to anywhere
+link: https://arxiv.org/pdf/2409.12822
+
+# Add list of authors here.
+# Name is mandatory, url is optional.
+authors:
+  - name: Jiaxin Wen
+  - name: Ruiqi Zhong
+  - name: Akbir Khan
+  - name: Ethan Perez
+  - name: Jacob Steinhardt
+  - name: Minlie Huang
+  - name: Samuel R. Boman
+  - name: He He, Shi Feng
+
+# List of links
+links:
+---
+
+<!--Abstract-->
+On a question-answering task (QuALITY) and programming task (APPS), RLHF makes LMs better at convincing our subjects but not at completing the task correctly. 
