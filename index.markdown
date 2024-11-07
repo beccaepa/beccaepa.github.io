@@ -1,6 +1,6 @@
 ---
 layout: home
-image: /assets/images/EthanPerezSquareHeadshot2019-2.jpg
+image: /assets/images/EthanPerezSquareHeadshot2019-.jpg
 ---
 
 I lead the adversarial robustness team at Anthropic, where I'm hoping to reduce [existential risks](https://www.safe.ai/statement-on-ai-risk) from AI systems. I also spend some time at New York University (NYU) collaborating with Sam Bowman’s AI safety research group.
