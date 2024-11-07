@@ -1,5 +1,5 @@
 ---
-title: Looking Inward Language Models Can Learn About Themselves by Introspection
+title: "Looking Inward: Language Models Can Learn About Themselves by Introspection"
 
 # Path to the image file, example /assets/images/blog/image.jpg
 # You can also use an online URL as well, example https://www.google.com/image.jpg
@@ -28,4 +28,4 @@ authors:
 
 <!--Abstract-->
 
-We explored how language models can learn about themselves through introspection. Experiments reveal that language models can develop self-knowledge through this process.
+This paper explored how language models can learn about themselves through introspection. Experiments reveal that language models can develop self-knowledge through this process.
