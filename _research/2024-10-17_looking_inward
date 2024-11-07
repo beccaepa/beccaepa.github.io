@@ -6,7 +6,7 @@ title: Looking Inward: Language Models Can Learn About Themselves by Introspecti
 image: /assets/images/introspection.webp
 
 # This is optional, if not provided it will not show on the page.
-subtitle: ICML 2017 Workshop
+subtitle: Arxiv 2024
 
 # This is optional, if not provided the title will not have a link to anywhere
 link: https://arxiv.org/pdf/2410.13787?
@@ -24,10 +24,8 @@ authors:
   - name: Miles Turpin
   - name: Owain Evans
 
-# List of links
-
 ---
 
 <!--Abstract-->
 
-we explored how language models can learn about themselves through introspection. Experiments reveal that language models can develop self-knowledge through this process.
+We explored how language models can learn about themselves through introspection. Experiments reveal that language models can develop self-knowledge through this process.
