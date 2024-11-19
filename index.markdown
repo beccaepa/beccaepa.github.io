@@ -11,4 +11,4 @@ I received my PhD from NYU under the supervision of Kyunghyun Cho and Douwe Kiel
 [Google Scholar](https://scholar.google.ca/citations?user=za0-taQAAAAJ&hl=en) /
 [GitHub](https://github.com/ethanjperez) /
 [Twitter](https://twitter.com/EthanJPerez) /
-[CV](/assets/pdfs/CV Nov 20 2024.pdf)
+[CV](/assets/pdfs/CV_2024.pdf)
