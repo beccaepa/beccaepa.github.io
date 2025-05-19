@@ -3,7 +3,7 @@ title: "A dataset of questions on decision-theoretic reasoning in Newcomb-like p
 
 # Path to the image file, example /assets/images/blog/image.jpg
 # You can also use an online URL as well, example https://www.google.com/image.jpg
-image: https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/5a9b636f010d59c1074c74789fedbe141153098cded2030da759869fe2082f49/xmgywkl5m5ltcntsobb3
+image: /assets/images/anthropicrapidresponse.webp
 
 # This is optional, if not provided it will not show on the page.
 subtitle: arXiv 2024
