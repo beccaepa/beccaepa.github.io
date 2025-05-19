@@ -1,5 +1,5 @@
 ---
-title: "A dataset of questions on decision-theoretic reasoning in Newcomb-like problems"
+title: "Rapid Response: Mitigating LLM Jailbreaks with a Few Examples"
 
 # Path to the image file, example /assets/images/blog/image.jpg
 # You can also use an online URL as well, example https://www.google.com/image.jpg
@@ -9,23 +9,23 @@ image: /assets/images/anthropicrapidresponse.webp
 subtitle: arXiv 2024
 
 # This is optional, if not provided the title will not have a link to anywhere
-link: https://arxiv.org/abs/2411.10588
+link: https://arxiv.org/abs/2411.07494
 
 # Add list of authors here.
 # Name is mandatory, url is optional.
 authors:
-  - name: Caspar Oesterheld
-  - name: Emery Cooper
-  - name: Miles Kodama
-  - name: Linh Chi Nguyen
-  - name:  Ethan Perez 
+  - name: Alwin Peng
+  - name: Julian Michael
+  - name: Henry Sleight
+  - name: Ethan Perez 
+  - name: Mrinank Sharma
 
 # List of links
 links:
   - name: Blog Post
-    url: https://www.lesswrong.com/posts/d9amcRzns5pwg9Fcu/a-dataset-of-questions-on-decision-theoretic-reasoning-in
+    url: https://spaces-ai.com/blog/anthropic-rapid-response/
 ---
 
 <!--Abstract-->
 
-We present a dataset on Newcomb-like problems to evaluate LLM reasoning. Analysis reveals attitude variation, links high capabilities to evidential decision theory, and shows consistent attitudes across questions.
+This paper introduces RapidResponseBench, a benchmark for assessing rapid-response defenses against jailbreaks in large language models.
