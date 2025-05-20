@@ -1,5 +1,5 @@
 ---
-title: Forecasting Rare Language Model Behaviors
+title: "Forecasting Rare Language Model Behaviors"
 
 # Path to the image file, example /assets/images/blog/image.jpg
 # You can also use an online URL as well, example https://www.google.com/image.jpg
@@ -36,5 +36,3 @@ links:
 <!--Abstract-->
 
 This paper introduces a method for forecasting rare but dangerous model behaviors at deployment scale by analyzing elicitation probabilities, enabling developers to anticipate and mitigate risks before they emerge.
-
-
