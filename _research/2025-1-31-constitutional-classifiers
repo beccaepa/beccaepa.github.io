@@ -1,0 +1,69 @@
+---
+title: "Constitutional Classifiers: Defending against Universal Jailbreaks across Thousands of Hours of Red Teaming"
+
+# Path to the image file, example /assets/images/blog/image.jpg
+# You can also use an online URL as well, example https://www.google.com/image.jpg
+image: /assets/images/constitutional-classifiers.webp
+
+# This is optional, if not provided it will not show on the page.
+subtitle: arXiv 2024
+
+# This is optional, if not provided the title will not have a link to anywhere
+link: https://arxiv.org/pdf/2501.18837
+
+# Add list of authors here.
+# Name is mandatory, url is optional.
+authors:
+  - name: Mrinank Sharma*
+  - name: Meg Tong*
+  - name: Jesse Mu*
+  - name: Jerry Wei*
+  - name: Jorrit Kruthoff*
+  - name: Scott Goodfriend*
+  - name: Euan Ong*
+  - name: Alwin Peng
+  - name: Raj Agarwal
+  - name: Cem Anil
+  - name: Amanda Askell
+  - name: Nathan Bailey
+  - name: Joe Benton
+  - name: Emma Bluemke
+  - name: Samuel R Bowman
+  - name: Eric Christiansen
+  - name: Hoagy Cunningham
+  - name: Andy Dau
+  - name: Anjali Gopal
+  - name: Rob Gilson
+  - name: Logan Graham
+  - name: Logan Howard
+  - name: Nimit Kalra
+  - name: Taesung Lee
+  - name: Kevin Lin
+  - name: Peter Lofgren
+  - name: Francesco Mosconi
+  - name: Clare O'Hara
+  - name: Catherine Olsson
+  - name: Linda Petrini
+  - name: Samir Rajani
+  - name: Nikhil Saxena
+  - name: Alex Silverstein
+  - name: Tanya Singh
+  - name: Theodore Sumers
+  - name: Leonard Tang
+  - name: Kevin K Troy
+  - name: Constantin Weisser
+  - name: Ruiqi Zhong
+  - name: Giulio Zhou
+  - name: Jan Leike
+  - name: Jared Kaplan
+  - name: Ethan Perez+
+
+# List of links
+links:
+  - name: Blog Post
+    url: https://www.anthropic.com/news/constitutional-classifiers
+---
+
+<!--Abstract-->
+
+This paper introduces RapidResponseBench, a benchmark for assessing rapid-response defenses against jailbreaks in large language models.
