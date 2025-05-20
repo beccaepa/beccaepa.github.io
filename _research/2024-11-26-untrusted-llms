@@ -31,4 +31,8 @@ authors:
 
 <!--Abstract-->
 
-This paper introduces a dataset on Newcomb-like decision problems to assess language models’ reasoning and attitudes. It finds that more capable models tend to favor evidential decision theory and show consistent attitudes across prompts and question types.
+This paper proposes an adaptive deployment framework for untrusted LLMs that balances safety and usefulness. In tests, it reduces harmful outputs by 80% without sacrificing performance.
+
+
+
+
