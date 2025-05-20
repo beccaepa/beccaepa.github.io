@@ -1,0 +1,61 @@
+---
+title: Many-shot Jailbreaking
+
+# Path to the image file, example /assets/images/blog/image.jpg
+# You can also use an online URL as well, example https://www.google.com/image.jpg
+image: /assets/images/manyshot-jailbreak.png
+
+# This is optional, if not provided it will not show on the page.
+subtitle: NeurIPS 2024
+
+# This is optional, if not provided the title will not have a link to anywhere
+link: https://proceedings.neurips.cc/paper_files/paper/2024/file/ea456e232efb72d261715e33ce25f208-Paper-Conference.pdf
+
+# Add list of authors here.
+# Name is mandatory, url is optional.
+authors:
+  - name: Cem Anil*
+  - name: Esin Durmus
+  - name: Nina Panickssery
+  - name: Mrinank Sharma
+  - name: Joe Benton
+  - name: Sandipan Kundu
+  - name: Joshua Batson
+  - name: Meg Tong
+  - name: Jesse Mu
+  - name: Daniel Ford
+  - name: Francesco Mosconi
+  - name: Rajashree Agrawal
+  - name: Rylan Schaeffer
+  - name: Naomi Bashkansky
+  - name: Samuel Svenningsen
+  - name: Mike Lambert
+  - name: Ansh Radhakrishnan
+  - name: Carson Denison
+  - name: Evan Hubinger
+  - name: Yuntao Bai
+  - name: Trenton Bricken
+  - name: Timothy Maxwell
+  - name: Nicholas Schiefer
+  - name: James Sully
+  - name: Alex Tamkin
+  - name: Tamera Lanham
+  - name: Karina Nguyen
+  - name: Tomek Korbak
+  - name: Jared Kaplan
+  - name: Deep Ganguli
+  - name: Samuel Bowman
+  - name: Ethan Perez
+  - name: Roger B Grosse
+  - name: David K Duvenaud
+
+# List of links
+links:
+  - name: Blog Post
+    url: https://www.anthropic.com/research/many-shot-jailbreaking
+
+---
+
+<!--Abstract-->
+
+This paper shows that prompting LLMs with many examples of harmful behavior can effectively induce unsafe outputs, revealing long context windows as a new attack surface.
