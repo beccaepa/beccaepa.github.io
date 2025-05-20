@@ -14,21 +14,21 @@ link: https://arxiv.org/pdf/2505.05410
 # Add list of authors here.
 # Name is mandatory, url is optional.
 authors:
-	- name: Yanda Chen
-	- name: Joe Benton
-	- name: Ansh Radhakrishnan
-	- name: Jonathan Uesato
-	- name: Carson Denison
-	- name: John Schulman
-	- name: Arushi Somani
-	- name: Peter Hase
-	- name: Misha Wagner
-	- name: Fabien Roger
-	- name: Vlad Mikulik
-	- name: Samuel R Bowman
-	- name: Jan Leike
-	- name: Jared Kaplan
-	- name: Ethan Perez
+  - name: Yanda Chen
+  - name: Joe Benton
+  - name: Ansh Radhakrishnan
+  - name: Jonathan Uesato
+  - name: Carson Denison
+  - name: John Schulman
+  - name: Arushi Somani
+  - name: Peter Hase
+  - name: Misha Wagner
+  - name: Fabien Roger
+  - name: Vlad Mikulik
+  - name: Samuel R Bowman
+  - name: Jan Leike
+  - name: Jared Kaplan
+  - name: Ethan Perez
 
 # List of links
 links:
