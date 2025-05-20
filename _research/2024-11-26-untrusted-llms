@@ -1,0 +1,34 @@
+---
+title: "Adaptive Deployment of Untrusted LLMs Reduces Distributed Threats"
+
+# Path to the image file, example /assets/images/blog/image.jpg
+# You can also use an online URL as well, example https://www.google.com/image.jpg
+image: 
+
+# This is optional, if not provided it will not show on the page.
+subtitle: ICLR 2025
+
+# This is optional, if not provided the title will not have a link to anywhere
+link: https://arxiv.org/pdf/2411.17693
+
+# Add list of authors here.
+# Name is mandatory, url is optional.
+authors:
+  - name: Jiaxin Wen
+  - name: Vivek Hebbar
+  - name: Caleb Larson
+  - name: Aryan Bhatt
+  - name: Ansh Radhakrishnan
+  - name: Mrinank Sharma
+  - name: Henry Sleight
+  - name: Shi Feng
+  - name: He He
+  - name: Ethan Perez
+  - name: Buck Shlegeris
+  - name: Akbir Khan
+
+---
+
+<!--Abstract-->
+
+This paper introduces a dataset on Newcomb-like decision problems to assess language models’ reasoning and attitudes. It finds that more capable models tend to favor evidential decision theory and show consistent attitudes across prompts and question types.
