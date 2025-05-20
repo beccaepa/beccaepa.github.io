@@ -1,0 +1,35 @@
+---
+title: Sabotage Evaluations for Frontier Models
+
+# Path to the image file, example /assets/images/blog/image.jpg
+# You can also use an online URL as well, example https://www.google.com/image.jpg
+image: assets/images/jailbreak-new-transcript.png
+
+# This is optional, if not provided it will not show on the page.
+subtitle: NeurIPS 2024
+
+# This is optional, if not provided the title will not have a link to anywhere
+link: https://arxiv.org/pdf/2412.02159?
+
+# Add list of authors here.
+# Name is mandatory, URL is optional.
+authors:
+  - name: Tony T Wang*
+  - name: John Hughes*
+  - name: Henry Sleight
+  - name: Rylan Schaeffer
+  - name: Rajashree Agrawal
+  - name: Fazl Barez
+  - name: Mrinank Sharma
+  - name: Jesse Mu
+  - name: Nir Shavit
+  - name: Ethan Perez
+
+---
+
+<!--Abstract-->
+
+This paper examines the challenge of stopping LLMs from aiding in bomb-making and proposes a transcript-classifier defense that outperforms existing methods but remains imperfect.
+
+
+
