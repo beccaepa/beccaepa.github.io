@@ -1,0 +1,40 @@
+---
+title: Best-of-n jailbreaking
+
+# Path to the image file, example /assets/images/blog/image.jpg
+# You can also use an online URL as well, example https://www.google.com/image.jpg
+image: /assets/images/bestofn.png
+
+# This is optional, if not provided it will not show on the page.
+subtitle: arXiv 2024
+
+# This is optional, if not provided the title will not have a link to anywhere
+link: https://arxiv.org/pdf/2412.03556
+
+# Add list of authors here.
+# Name is mandatory, url is optional.
+authors:
+  - name: John Hughes*
+  - name: Sara Price*
+  - name: Aengus Lynch*
+  - name: Rylan Schaeffer
+  - name: Fazl Barez
+  - name: Sanmi Koyejo
+  - name: Henry Sleight
+  - name: Erik Jones
+  - name: Ethan Perez
+  - name: Mrinank Sharma
+
+# List of links
+links:
+  - name: Blog Post
+    url: https://www.lesswrong.com/posts/oq5CtbsCncctPWkTn/best-of-n-jailbreaking
+---
+
+<!--Abstract-->
+
+This paper presents Best-of-N Jailbreaking, a black-box attack that uses prompt augmentations to reliably bypass AI safety measures across text, vision, and audio models.
+
+
+
+
