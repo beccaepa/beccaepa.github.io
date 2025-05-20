@@ -1,0 +1,40 @@
+---
+title: Forecasting Rare Language Model Behaviors
+
+# Path to the image file, example /assets/images/blog/image.jpg
+# You can also use an online URL as well, example https://www.google.com/image.jpg
+image: /assets/images/forecasting.webp
+
+# This is optional, if not provided it will not show on the page.
+subtitle: arXiv 2024
+
+# This is optional, if not provided the title will not have a link to anywhere
+link: https://arxiv.org/pdf/2502.16797
+
+# Add list of authors here.
+# Name is mandatory, url is optional.
+authors:
+	- name: Erik Jones*
+	- name: Meg Tong*
+	- name: Jesse Mu
+	- name: Mohammed Mahfoud
+	- name: Jan Leike
+	- name: Roger Grosse
+	- name: Jared Kaplan
+	- name: William Fithian
+	- name: Ethan Perez
+	- name: Mrinank Sharma
+
+# List of links
+links:
+  - name: Blog Post
+    url: https://www.anthropic.com/research/forecasting-rare-behaviors
+  - name: Twitter
+    url: https://x.com/AnthropicAI/status/1894495059954860055
+---
+
+<!--Abstract-->
+
+This paper introduces a method for forecasting rare but dangerous model behaviors at deployment scale by analyzing elicitation probabilities, enabling developers to anticipate and mitigate risks before they emerge.
+
+
