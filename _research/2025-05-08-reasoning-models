@@ -1,0 +1,42 @@
+---
+title: Reasoning Models Don't Always Say What They Think
+
+# Path to the image file, example /assets/images/blog/image.jpg
+# You can also use an online URL as well, example https://www.google.com/image.jpg
+image: /assets/images/reasoning.webp
+
+# This is optional, if not provided it will not show on the page.
+subtitle: arXiv 2025
+
+# This is optional, if not provided the title will not have a link to anywhere
+link: https://arxiv.org/pdf/2505.05410
+
+# Add list of authors here.
+# Name is mandatory, url is optional.
+authors:
+	- name: Yanda Chen
+	- name: Joe Benton
+	- name: Ansh Radhakrishnan
+	- name: Jonathan Uesato
+	- name: Carson Denison
+	- name: John Schulman
+	- name: Arushi Somani
+	- name: Peter Hase
+	- name: Misha Wagner
+	- name: Fabien Roger
+	- name: Vlad Mikulik
+	- name: Samuel R Bowman
+	- name: Jan Leike
+	- name: Jared Kaplan
+	- name: Ethan Perez
+
+# List of links
+links:
+  - name: Blog Post
+    url: https://www.lesswrong.com/posts/PrcBFPkoRNGWrvdPk/reasoning-models-don-t-always-say-what-they-think-1
+---
+
+<!--Abstract-->
+
+This paper evaluates the faithfulness of chain-of-thought reasoning in AI models, finding that while CoTs can help monitor model intentions, they often fail to fully reveal reasoning processes, limiting their effectiveness for detecting rare harmful behaviors.
+
