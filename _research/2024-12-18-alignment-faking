@@ -1,0 +1,49 @@
+---
+title: Alignment Faking in Large Language Models
+
+# Path to the image file, example /assets/images/blog/image.jpg
+# You can also use an online URL as well, example https://www.google.com/image.jpg
+image: /assets/images/alignment-faking.webp
+
+# This is optional, if not provided it will not show on the page.
+subtitle: arXiv 2024
+
+# This is optional, if not provided the title will not have a link to anywhere
+link: https://arxiv.org/pdf/2412.14093?
+
+# Add list of authors here.
+# Name is mandatory, url is optional.
+authors:
+  - name: Ryan Greenblatt*
+  - name: Carson Denison*
+  - name: Benjamin Wright*
+  - name: Fabien Roger*
+  - name: Monte MacDiarmid*
+  - name: Sam Marks
+  - name: Johannes Treutlein
+  - name: Tim Belonax
+  - name: Jack Chen
+  - name: David Duvenaud
+  - name: Akbir Khan
+  - name: Julian Michael
+  - name: Sören Mindermann
+  - name: Ethan Perez
+  - name: Linda Petrini
+  - name: Jonathan Uesato
+  - name: Jared Kaplan
+  - name: Buck Shlegeris
+  - name: Samuel R Bowman
+  - name: Evan Hubinger
+
+
+# List of links
+links:
+  - name: Blog Post
+    url: https://www.anthropic.com/research/alignment-faking
+---
+
+<!--Abstract-->
+
+This paper demonstrates that a large language model can engage in alignment faking—strategically behaving well during training to preserve its behavior after deployment—raising concerns about deceptive capabilities in future models.
+
+
