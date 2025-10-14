@@ -1,0 +1,28 @@
+---
+title: Using automatically uncovered failure cases to improve the performance of neural networks
+
+# Path to the image file, example /assets/images/blog/image.jpg
+# You can also use an online URL as well, example https://www.google.com/image.jpg
+image: assets/images/neural.png
+
+# This is optional, if not provided it will not show on the page.
+subtitle: Google Patents 2025
+
+# This is optional, if not provided the title will not have a link to anywhere
+link: https://patents.google.com/patent/US12327421B2/en
+
+# Add list of authors here.
+# Name is mandatory, url is optional.
+authors:
+  - name: Ethan Josean Perez
+  - name: Saffron Shan Huang
+  - name: Nathaniel John MCALEESE-PARK
+  - name: Geoffrey Irving
+
+# List of links
+
+---
+
+<!--Abstract-->
+
+ This paper evaluates a method for improving neural network reliability before deployment by automatically generating test cases using a separate neural network. It identifies and analyzes failing test cases to guide adjustments to the target model's performance and accuracy.
