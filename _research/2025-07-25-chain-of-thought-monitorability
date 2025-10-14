@@ -1,0 +1,71 @@
+---
+title: "Chain of Thought Monitorability: A New and Fragile Opportunity for AI Safety"
+
+# Path to the image file, example /assets/images/blog/image.jpg
+# You can also use an online URL as well, example https://www.google.com/image.jpg
+image: assets/images/Long-serial-chains-of-cognition-must-pass-through-the-chain-of-thought-We-visualize-the.png
+
+# This is optional, if not provided it will not show on the page.
+subtitle: arXiv 2025
+
+# This is optional, if not provided the title will not have a link to anywhere
+link: https://arxiv.org/abs/2507.11473
+
+# Add list of authors here.
+# Name is mandatory, url is optional.
+authors:
+  - name: Tomek Korbak* 
+  - name: Mikita Balesni*
+  - name: Elizabeth Barnes
+  - name: Yoshua Bengio
+  - name: Joe Benton
+  - name: Joseph Bloom
+  - name: Mark Chen
+  - name: Alan Cooney
+  - name: Allan Dafoe
+  - name: Anca Dragan
+  - name: Scott Emmons
+  - name: Owain Evans
+  - name: David Farhi
+  - name: Ryan Greenblatt
+  - name: Dan Hendrycks
+  - name: Marius Hobbhahn
+  - name: Evan Hubinger
+  - name: Geoffrey Irving
+  - name: Erik Jenner
+  - name: Daniel Kokotajlo
+  - name: Victoria Krakovna
+  - name: Shane Legg
+  - name: David Lindner
+  - name: David Luan
+  - name: Aleksander Mądry
+  - name: Julian Michael
+  - name: Neel Nanda
+  - name: Dave Orr
+  - name: Jakub Pachocki
+  - name: Ethan Perez
+  - name: Mary Phuong
+  - name: Fabien Roger
+  - name: Joshua Saxe
+  - name: Buck Shlegeris
+  - name: Martín Soto
+  - name: Eric Steinberger
+  - name: Jasmine Wang
+  - name: Wojciech Zaremba
+  - name: Bowen Baker
+  - name: Rohin Shah
+  - name: Vlad Mikulik
+
+# List of links
+links:
+  - name: Blog Post
+    url: https://medium.com/@adnanmasood/reading-gpts-mind-analysis-of-chain-of-thought-monitorability-as-a-contingent-and-fragile-aaa503ba21c5
+  - name: AI Alignment Forum
+    url: https://www.alignmentforum.org/posts/7xneDbsgj6yJDJMjK/chain-of-thought-monitorability-a-new-and-fragile
+  - name: Twitter
+    url: https://x.com/balesni/status/1945151391674057154
+---
+
+<!--Abstract-->
+
+This paper explores using chain-of-thought (CoT) monitoring to improve AI safety by detecting an AI system’s intent to misbehave through its internal reasoning. While imperfect, CoT monitoring shows strong potential, and the authors urge further research and careful consideration of how development choices affect its reliability.
