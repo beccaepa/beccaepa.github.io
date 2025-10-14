@@ -9,7 +9,7 @@ image: assets/images/neural.png
 subtitle: Google Patents 2025
 
 # This is optional, if not provided the title will not have a link to anywhere
-link: https://patents.google.com/patent/US12327421B2/en
+link: https://patentimages.storage.googleapis.com/65/71/05/24cc9a74ff3244/US12327421B2.pdf
 
 # Add list of authors here.
 # Name is mandatory, url is optional.
