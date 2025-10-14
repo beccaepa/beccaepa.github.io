@@ -1,0 +1,39 @@
+---
+title: Unsupervised Elicitation of Language Models
+
+# Path to the image file, example /assets/images/blog/image.jpg
+# You can also use an online URL as well, example https://www.google.com/image.jpg
+image: assets/images/unsupervised.webp
+
+# This is optional, if not provided it will not show on the page.
+subtitle: arXiv 2025
+
+# This is optional, if not provided the title will not have a link to anywhere
+link: https://arxiv.org/pdf/2506.10139
+
+# Add list of authors here.
+# Name is mandatory, url is optional.
+authors:
+  - name: Jiaxin Wen
+  - name: Zachary Ankner
+  - name: Arushi Somani 
+  - name: Peter Hase
+  - name: Samuel Marks
+  - name: Jacob Goldman-Wetzler
+  - name: Linda Petrini
+  - name: Henry Sleight
+  - name: Collin Burns
+  - name: He He
+  - name: Shi Feng
+  - name: Ethan Perez
+  - name: Jan Leike
+
+# List of links
+links:
+  - name: Blog Post
+    url: https://www.lesswrong.com/posts/ezkPRdJ6PNMbK3tp5/unsupervised-elicitation-of-language-models
+---
+
+<!--Abstract-->
+
+This paper introduces Internal Coherence Maximization (ICM), an unsupervised algorithm that fine-tunes language models using their own generated labels instead of human supervision. The method achieves performance comparable to or better than models trained on human or golden labels, particularly excelling in tasks where models exhibit superhuman capabilities.
