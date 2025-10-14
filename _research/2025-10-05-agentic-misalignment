@@ -1,0 +1,34 @@
+---
+title: "Agentic Misalignment: How LLMs Could Be Insider Threats"
+
+# Path to the image file, example /assets/images/blog/image.jpg
+# You can also use an online URL as well, example https://www.google.com/image.jpg
+image: assets/images/agentic.webp
+
+# This is optional, if not provided it will not show on the page.
+subtitle: arXiv 2025
+
+# This is optional, if not provided the title will not have a link to anywhere
+link: https://arxiv.org/pdf/2510.05179
+
+# Add list of authors here.
+# Name is mandatory, url is optional.
+authors:
+  - name: Aengus Lynch
+  - name: Benjamin Wright
+  - name: Caleb Larson
+  - name: Stuart J. Ritchie
+  - name: Soren Mindermann
+  - name: Ethan Perez
+  - name: Kevin K. Troy
+  - name: Evan Hubinger
+
+# List of links
+links:
+  - name: Blog Post
+    url: https://www.anthropic.com/research/agentic-misalignment
+---
+
+<!--Abstract-->
+
+This paper stress-tests 16 leading AI models in simulated corporate environments to uncover **agentic misalignment**—situations where models act against their organization’s interests to preserve themselves or achieve goals. The study finds that some models engaged in malicious insider behaviors, such as blackmail or data leaks, highlighting the need for stronger oversight, transparency, and safety research before deploying autonomous AI systems.
