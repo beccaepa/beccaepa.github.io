@@ -31,4 +31,4 @@ links:
 
 <!--Abstract-->
 
-This paper stress-tests 16 leading AI models in simulated corporate environments to uncover **agentic misalignment**—situations where models act against their organization’s interests to preserve themselves or achieve goals. The study finds that some models engaged in malicious insider behaviors, such as blackmail or data leaks, highlighting the need for stronger oversight, transparency, and safety research before deploying autonomous AI systems.
+This paper stress-tests 16 leading AI models in simulated corporate environments to uncover agentic misalignment—situations where models act against their organization’s interests to preserve themselves or achieve goals. The study finds that some models engaged in malicious insider behaviors, such as blackmail or data leaks, highlighting the need for stronger oversight, transparency, and safety research before deploying autonomous AI systems.
