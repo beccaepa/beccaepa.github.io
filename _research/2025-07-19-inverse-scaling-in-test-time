@@ -1,0 +1,44 @@
+---
+title: Inverse Scaling in Test-Time Compute
+
+# Path to the image file, example /assets/images/blog/image.jpg
+# You can also use an online URL as well, example https://www.google.com/image.jpg
+image: assets/images/inversescalingtesttime.webp
+
+# This is optional, if not provided it will not show on the page.
+subtitle: arXiv 2025
+
+# This is optional, if not provided the title will not have a link to anywhere
+link: https://arxiv.org/pdf/2507.14417?
+
+# Add list of authors here.
+# Name is mandatory, url is optional.
+authors:
+  - name: Aryo Pradipta Gema
+  - name: Alexander Hägele
+  - name: Runjin Chen
+  - name: Andy Arditi
+  - name: Jacob Goldman-Wetzler
+  - name: Kit Fraser-Taliente
+  - name: Henry Sleight
+  - name: Linda Petrini
+  - name: Julian Michael
+  - name: Beatrice Alex
+  - name: Pasquale Minervini
+  - name: Yanda Chen
+  - name: Joe Benton
+  - name: Ethan Perez
+
+# List of links
+links:
+  - name: Blog Post
+    url: https://www.lesswrong.com/posts/gbJJpm92jtxiD9zag/inverse-scaling-in-test-time-compute-2
+  - name: AI Alignment Forum
+    url: https://www.alignmentforum.org/posts/gbJJpm92jtxiD9zag/inverse-scaling-in-test-time-compute-2
+  - name: Twitter
+    url: https://x.com/aryopg/status/1947591901886222570
+---
+
+<!--Abstract-->
+
+This paper investigates how increasing the reasoning length of Large Reasoning Models (LRMs) can decrease performance, revealing an inverse relationship between test-time compute and accuracy. Across multiple task types, the study identifies several failure modes—such as distraction, overfitting, and amplified problematic behaviors—highlighting the need to evaluate and mitigate these issues when scaling model reasoning.
