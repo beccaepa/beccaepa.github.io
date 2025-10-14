@@ -20,7 +20,9 @@ authors:
   - name: Geoffrey Irving
 
 # List of links
-
+links:
+  - name: Patent
+    url: https://patents.google.com/patent/US12327421B2/en
 ---
 
 <!--Abstract-->
