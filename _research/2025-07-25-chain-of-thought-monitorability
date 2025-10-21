@@ -52,9 +52,9 @@ authors:
   - name: Eric Steinberger
   - name: Jasmine Wang
   - name: Wojciech Zaremba
-  - name: Bowen Baker
-  - name: Rohin Shah
-  - name: Vlad Mikulik
+  - name: Bowen Baker +
+  - name: Rohin Shah +
+  - name: Vlad Mikulik +
 
 # List of links
 links:
