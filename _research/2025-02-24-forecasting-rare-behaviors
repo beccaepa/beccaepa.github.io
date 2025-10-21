@@ -14,7 +14,7 @@ link: https://arxiv.org/pdf/2502.16797
 # Add list of authors here.
 # Name is mandatory, url is optional.
 authors:
-  - name: Erik Jones*
+  - name: Erik Jones*+
   - name: Meg Tong* 
   - name: Jesse Mu
   - name: Mohammed Mahfoud
@@ -22,7 +22,7 @@ authors:
   - name: Roger Grosse
   - name: Jared Kaplan
   - name: William Fithian
-  - name: Ethan Perez
+  - name: Ethan Perez +
   - name: Mrinank Sharma
 
 # List of links
