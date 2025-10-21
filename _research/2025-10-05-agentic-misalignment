@@ -19,9 +19,9 @@ authors:
   - name: Caleb Larson
   - name: Stuart J. Ritchie
   - name: Soren Mindermann
-  - name: Ethan Perez
-  - name: Kevin K. Troy
-  - name: Evan Hubinger
+  - name: Ethan Perez +
+  - name: Kevin K. Troy +
+  - name: Evan Hubinger +
 
 # List of links
 links:
