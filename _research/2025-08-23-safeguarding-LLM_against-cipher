@@ -9,7 +9,7 @@ image: assets/images/first_image.jpeg
 subtitle: arXiv 2025
 
 # This is optional, if not provided the title will not have a link to anywhere
-link: https://arxiv.org/abs/2508.17158
+link: https://arxiv.org/pdf/2508.17158
 
 # Add list of authors here.
 # Name is mandatory, url is optional.
