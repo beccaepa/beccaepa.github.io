@@ -9,7 +9,7 @@ image: /assets/images/debate-image.png
 subtitle: ICML 2024; Best Paper Award
 
 # This is optional, if not provided the title will not have a link to anywhere
-link: https://arxiv.org/abs/2402.06782
+link: https://arxiv.org/pdf/2402.06782
 
 # Add list of authors here.
 # Name is mandatory, url is optional.
