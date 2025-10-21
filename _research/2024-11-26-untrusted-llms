@@ -14,9 +14,9 @@ link: https://arxiv.org/pdf/2411.17693
 # Add list of authors here.
 # Name is mandatory, url is optional.
 authors:
-  - name: Jiaxin Wen
-  - name: Vivek Hebbar
-  - name: Caleb Larson
+  - name: Jiaxin Wen*
+  - name: Vivek Hebbar*
+  - name: Caleb Larson*
   - name: Aryan Bhatt
   - name: Ansh Radhakrishnan
   - name: Mrinank Sharma
