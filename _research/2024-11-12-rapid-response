@@ -9,7 +9,7 @@ image: /assets/images/anthropicrapidresponse.webp
 subtitle: arXiv 2024
 
 # This is optional, if not provided the title will not have a link to anywhere
-link: https://arxiv.org/abs/2411.07494
+link: https://arxiv.org/pdf/2411.07494
 
 # Add list of authors here.
 # Name is mandatory, url is optional.
